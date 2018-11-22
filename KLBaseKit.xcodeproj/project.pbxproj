@@ -1,0 +1,1323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE67263321A6BEEC0052C275 /* KLBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KLBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE67267221A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
+		CE67267321A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
+		CE67267421A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
+		CE67267521A6C0380052C275 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267121A6C0380052C275 /* MulticastDelegate.swift */; };
+		CE67267621A6C0380052C275 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267121A6C0380052C275 /* MulticastDelegate.swift */; };
+		CE67267721A6C0380052C275 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267121A6C0380052C275 /* MulticastDelegate.swift */; };
+		CE67267F21A6C0570052C275 /* LogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267921A6C0560052C275 /* LogRenderer.swift */; };
+		CE67268021A6C0570052C275 /* LogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267921A6C0560052C275 /* LogRenderer.swift */; };
+		CE67268121A6C0570052C275 /* LogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267921A6C0560052C275 /* LogRenderer.swift */; };
+		CE67268221A6C0570052C275 /* MultiLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267A21A6C0560052C275 /* MultiLogRenderer.swift */; };
+		CE67268321A6C0570052C275 /* MultiLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267A21A6C0560052C275 /* MultiLogRenderer.swift */; };
+		CE67268421A6C0570052C275 /* MultiLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267A21A6C0560052C275 /* MultiLogRenderer.swift */; };
+		CE67268521A6C0570052C275 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267B21A6C0560052C275 /* Log.swift */; };
+		CE67268621A6C0570052C275 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267B21A6C0560052C275 /* Log.swift */; };
+		CE67268721A6C0570052C275 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267B21A6C0560052C275 /* Log.swift */; };
+		CE67268821A6C0570052C275 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267C21A6C0570052C275 /* LogLevel.swift */; };
+		CE67268921A6C0570052C275 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267C21A6C0570052C275 /* LogLevel.swift */; };
+		CE67268A21A6C0570052C275 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267C21A6C0570052C275 /* LogLevel.swift */; };
+		CE67268B21A6C0570052C275 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267D21A6C0570052C275 /* Logging.swift */; };
+		CE67268C21A6C0570052C275 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267D21A6C0570052C275 /* Logging.swift */; };
+		CE67268D21A6C0570052C275 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267D21A6C0570052C275 /* Logging.swift */; };
+		CE67268E21A6C0570052C275 /* NSLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267E21A6C0570052C275 /* NSLogRenderer.swift */; };
+		CE67268F21A6C0570052C275 /* NSLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267E21A6C0570052C275 /* NSLogRenderer.swift */; };
+		CE67269021A6C0570052C275 /* NSLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267E21A6C0570052C275 /* NSLogRenderer.swift */; };
+		CE6726A221A6CD2C0052C275 /* Optional+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269E21A6CD2C0052C275 /* Optional+KIS.swift */; };
+		CE6726A321A6CD2C0052C275 /* Optional+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269E21A6CD2C0052C275 /* Optional+KIS.swift */; };
+		CE6726A421A6CD2C0052C275 /* Optional+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269E21A6CD2C0052C275 /* Optional+KIS.swift */; };
+		CE6726A521A6CD2C0052C275 /* FileManager+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269F21A6CD2C0052C275 /* FileManager+KIS.swift */; };
+		CE6726A621A6CD2C0052C275 /* FileManager+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269F21A6CD2C0052C275 /* FileManager+KIS.swift */; };
+		CE6726A721A6CD2C0052C275 /* FileManager+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269F21A6CD2C0052C275 /* FileManager+KIS.swift */; };
+		CE6726A821A6CD2C0052C275 /* Array+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A021A6CD2C0052C275 /* Array+KIS.swift */; };
+		CE6726A921A6CD2C0052C275 /* Array+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A021A6CD2C0052C275 /* Array+KIS.swift */; };
+		CE6726AA21A6CD2C0052C275 /* Array+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A021A6CD2C0052C275 /* Array+KIS.swift */; };
+		CE6726AB21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A121A6CD2C0052C275 /* DispatchQueue+KIS.swift */; };
+		CE6726AC21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A121A6CD2C0052C275 /* DispatchQueue+KIS.swift */; };
+		CE6726AD21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A121A6CD2C0052C275 /* DispatchQueue+KIS.swift */; };
+		CE6726BF21A6CD430052C275 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726AF21A6CD430052C275 /* Constants.swift */; };
+		CE6726C021A6CD430052C275 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726AF21A6CD430052C275 /* Constants.swift */; };
+		CE6726C121A6CD430052C275 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726AF21A6CD430052C275 /* Constants.swift */; };
+		CE6726C221A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B121A6CD430052C275 /* JSONSerialization+KIS.swift */; };
+		CE6726C321A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B121A6CD430052C275 /* JSONSerialization+KIS.swift */; };
+		CE6726C421A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B121A6CD430052C275 /* JSONSerialization+KIS.swift */; };
+		CE6726C521A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B221A6CD430052C275 /* HTTPURLResponse+KIS.swift */; };
+		CE6726C621A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B221A6CD430052C275 /* HTTPURLResponse+KIS.swift */; };
+		CE6726C721A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B221A6CD430052C275 /* HTTPURLResponse+KIS.swift */; };
+		CE6726C821A6CD430052C275 /* Data+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B321A6CD430052C275 /* Data+KIS.swift */; };
+		CE6726C921A6CD430052C275 /* Data+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B321A6CD430052C275 /* Data+KIS.swift */; };
+		CE6726CA21A6CD430052C275 /* Data+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B321A6CD430052C275 /* Data+KIS.swift */; };
+		CE6726CB21A6CD430052C275 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B421A6CD430052C275 /* Response.swift */; };
+		CE6726CC21A6CD430052C275 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B421A6CD430052C275 /* Response.swift */; };
+		CE6726CD21A6CD430052C275 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B421A6CD430052C275 /* Response.swift */; };
+		CE6726CE21A6CD430052C275 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B521A6CD430052C275 /* Request.swift */; };
+		CE6726CF21A6CD430052C275 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B521A6CD430052C275 /* Request.swift */; };
+		CE6726D021A6CD430052C275 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B521A6CD430052C275 /* Request.swift */; };
+		CE6726D121A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B721A6CD430052C275 /* RestClient+PrepareRequest.swift */; };
+		CE6726D221A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B721A6CD430052C275 /* RestClient+PrepareRequest.swift */; };
+		CE6726D321A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B721A6CD430052C275 /* RestClient+PrepareRequest.swift */; };
+		CE6726D421A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B821A6CD430052C275 /* RestClient+ExecuteRequest.swift */; };
+		CE6726D521A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B821A6CD430052C275 /* RestClient+ExecuteRequest.swift */; };
+		CE6726D621A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B821A6CD430052C275 /* RestClient+ExecuteRequest.swift */; };
+		CE6726D721A6CD430052C275 /* RestClient+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B921A6CD430052C275 /* RestClient+Authentication.swift */; };
+		CE6726D821A6CD430052C275 /* RestClient+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B921A6CD430052C275 /* RestClient+Authentication.swift */; };
+		CE6726D921A6CD430052C275 /* RestClient+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B921A6CD430052C275 /* RestClient+Authentication.swift */; };
+		CE6726DA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift */; };
+		CE6726DB21A6CD430052C275 /* RestClientAuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift */; };
+		CE6726DC21A6CD430052C275 /* RestClientAuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift */; };
+		CE6726DD21A6CD430052C275 /* RestClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BB21A6CD430052C275 /* RestClient+Error.swift */; };
+		CE6726DE21A6CD430052C275 /* RestClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BB21A6CD430052C275 /* RestClient+Error.swift */; };
+		CE6726DF21A6CD430052C275 /* RestClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BB21A6CD430052C275 /* RestClient+Error.swift */; };
+		CE6726E021A6CD430052C275 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BC21A6CD430052C275 /* RestClient.swift */; };
+		CE6726E121A6CD430052C275 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BC21A6CD430052C275 /* RestClient.swift */; };
+		CE6726E221A6CD430052C275 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BC21A6CD430052C275 /* RestClient.swift */; };
+		CE6726E321A6CD430052C275 /* DictionaryDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BE21A6CD430052C275 /* DictionaryDecodable.swift */; };
+		CE6726E421A6CD430052C275 /* DictionaryDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BE21A6CD430052C275 /* DictionaryDecodable.swift */; };
+		CE6726E521A6CD430052C275 /* DictionaryDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BE21A6CD430052C275 /* DictionaryDecodable.swift */; };
+		CE6726E821A6CD570052C275 /* KNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726E721A6CD570052C275 /* KNetworkError.swift */; };
+		CE6726E921A6CD570052C275 /* KNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726E721A6CD570052C275 /* KNetworkError.swift */; };
+		CE6726EA21A6CD570052C275 /* KNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726E721A6CD570052C275 /* KNetworkError.swift */; };
+		CE6726ED21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726EC21A6CD7D0052C275 /* GlobalActivityIndicator.swift */; };
+		CE6726EE21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726EC21A6CD7D0052C275 /* GlobalActivityIndicator.swift */; };
+		CE6726EF21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726EC21A6CD7D0052C275 /* GlobalActivityIndicator.swift */; };
+		CE67270721A6CD930052C275 /* String+Obfuscation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F721A6CD930052C275 /* String+Obfuscation.swift */; };
+		CE67270821A6CD930052C275 /* String+Obfuscation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F721A6CD930052C275 /* String+Obfuscation.swift */; };
+		CE67270921A6CD930052C275 /* String+Obfuscation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F721A6CD930052C275 /* String+Obfuscation.swift */; };
+		CE67270A21A6CD930052C275 /* SSLCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F921A6CD930052C275 /* SSLCertificate.swift */; };
+		CE67270B21A6CD930052C275 /* SSLCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F921A6CD930052C275 /* SSLCertificate.swift */; };
+		CE67270C21A6CD930052C275 /* SSLCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F921A6CD930052C275 /* SSLCertificate.swift */; };
+		CE67270D21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */; };
+		CE67270E21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */; };
+		CE67270F21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */; };
+		CE67271D21A6CDF90052C275 /* KLBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KLBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE67271F21A6CDFB0052C275 /* KLBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KLBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE67272021A6CE070052C275 /* KLBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KLBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE67272121A6CE210052C275 /* GlobalActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726EC21A6CD7D0052C275 /* GlobalActivityIndicator.swift */; };
+		CE67272221A6CE210052C275 /* KNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726E721A6CD570052C275 /* KNetworkError.swift */; };
+		CE67272321A6CE210052C275 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726AF21A6CD430052C275 /* Constants.swift */; };
+		CE67272421A6CE210052C275 /* JSONSerialization+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B121A6CD430052C275 /* JSONSerialization+KIS.swift */; };
+		CE67272521A6CE210052C275 /* HTTPURLResponse+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B221A6CD430052C275 /* HTTPURLResponse+KIS.swift */; };
+		CE67272621A6CE210052C275 /* Data+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B321A6CD430052C275 /* Data+KIS.swift */; };
+		CE67272721A6CE210052C275 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B421A6CD430052C275 /* Response.swift */; };
+		CE67272821A6CE210052C275 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B521A6CD430052C275 /* Request.swift */; };
+		CE67272921A6CE210052C275 /* RestClient+PrepareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B721A6CD430052C275 /* RestClient+PrepareRequest.swift */; };
+		CE67272A21A6CE210052C275 /* RestClient+ExecuteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B821A6CD430052C275 /* RestClient+ExecuteRequest.swift */; };
+		CE67272B21A6CE210052C275 /* RestClient+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726B921A6CD430052C275 /* RestClient+Authentication.swift */; };
+		CE67272C21A6CE210052C275 /* RestClientAuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift */; };
+		CE67272D21A6CE210052C275 /* RestClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BB21A6CD430052C275 /* RestClient+Error.swift */; };
+		CE67272E21A6CE210052C275 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BC21A6CD430052C275 /* RestClient.swift */; };
+		CE67272F21A6CE210052C275 /* DictionaryDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726BE21A6CD430052C275 /* DictionaryDecodable.swift */; };
+		CE67273021A6CE210052C275 /* Optional+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269E21A6CD2C0052C275 /* Optional+KIS.swift */; };
+		CE67273121A6CE210052C275 /* DispatchQueue+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A121A6CD2C0052C275 /* DispatchQueue+KIS.swift */; };
+		CE67273221A6CE210052C275 /* FileManager+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67269F21A6CD2C0052C275 /* FileManager+KIS.swift */; };
+		CE67273321A6CE210052C275 /* Array+KIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726A021A6CD2C0052C275 /* Array+KIS.swift */; };
+		CE67273421A6CE210052C275 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267B21A6C0560052C275 /* Log.swift */; };
+		CE67273521A6CE210052C275 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267D21A6C0570052C275 /* Logging.swift */; };
+		CE67273621A6CE210052C275 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267C21A6C0570052C275 /* LogLevel.swift */; };
+		CE67273721A6CE210052C275 /* LogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267921A6C0560052C275 /* LogRenderer.swift */; };
+		CE67273821A6CE210052C275 /* MultiLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267A21A6C0560052C275 /* MultiLogRenderer.swift */; };
+		CE67273921A6CE210052C275 /* NSLogRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267E21A6C0570052C275 /* NSLogRenderer.swift */; };
+		CE67273A21A6CE210052C275 /* String+Obfuscation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F721A6CD930052C275 /* String+Obfuscation.swift */; };
+		CE67273B21A6CE210052C275 /* SSLCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726F921A6CD930052C275 /* SSLCertificate.swift */; };
+		CE67273C21A6CE210052C275 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */; };
+		CE67273D21A6CE210052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
+		CE67273E21A6CE210052C275 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267121A6C0380052C275 /* MulticastDelegate.swift */; };
+		CEB1526C21A6E36C00C53A41 /* MulticastDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1526B21A6E36C00C53A41 /* MulticastDelegateTests.swift */; };
+		CEB1528321A6E38000C53A41 /* SafeOptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1526E21A6E38000C53A41 /* SafeOptionalTests.swift */; };
+		CEB1528421A6E38000C53A41 /* MultiLogRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1526F21A6E38000C53A41 /* MultiLogRendererTests.swift */; };
+		CEB1528521A6E38000C53A41 /* LoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527021A6E38000C53A41 /* LoggingTests.swift */; };
+		CEB1528621A6E38000C53A41 /* NSLogRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527121A6E38000C53A41 /* NSLogRendererTests.swift */; };
+		CEB1528721A6E38000C53A41 /* KLogKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527221A6E38000C53A41 /* KLogKitTests.swift */; };
+		CEB1528821A6E38000C53A41 /* LogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527321A6E38000C53A41 /* LogLevelTests.swift */; };
+		CEB1528921A6E38000C53A41 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527521A6E38000C53A41 /* RequestTests.swift */; };
+		CEB1528A21A6E38000C53A41 /* PrepareRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527621A6E38000C53A41 /* PrepareRequestTests.swift */; };
+		CEB1528B21A6E38000C53A41 /* OperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527721A6E38000C53A41 /* OperatorTests.swift */; };
+		CEB1528C21A6E38000C53A41 /* DataKISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527821A6E38000C53A41 /* DataKISTests.swift */; };
+		CEB1528E21A6E38000C53A41 /* RestClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527A21A6E38000C53A41 /* RestClientTests.swift */; };
+		CEB1528F21A6E38000C53A41 /* DictionaryDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527B21A6E38000C53A41 /* DictionaryDecodableTests.swift */; };
+		CEB1529021A6E38000C53A41 /* JSONSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527C21A6E38000C53A41 /* JSONSerializationTests.swift */; };
+		CEB1529121A6E38000C53A41 /* HTTPURLResponseKISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527D21A6E38000C53A41 /* HTTPURLResponseKISTests.swift */; };
+		CEB1529221A6E38000C53A41 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */; };
+		CEB1529321A6E38000C53A41 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527F21A6E38000C53A41 /* TestTests.swift */; };
+		CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */; };
+		CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */; };
+		CEB84E6721A6E09400CB34FC /* KLBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KLBaseKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB84E6821A6E09400CB34FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE67261921A6BEEC0052C275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE67262121A6BEEC0052C275;
+			remoteInfo = "KBaseKit-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE67262221A6BEEC0052C275 /* KLBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67262521A6BEEC0052C275 /* KLBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaseKit.h; sourceTree = "<group>"; };
+		CE67262621A6BEEC0052C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE67264121A6BF140052C275 /* KLBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67265D21A6BF550052C275 /* KLBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongMulticastDelegate.swift; sourceTree = "<group>"; };
+		CE67267121A6C0380052C275 /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		CE67267921A6C0560052C275 /* LogRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRenderer.swift; sourceTree = "<group>"; };
+		CE67267A21A6C0560052C275 /* MultiLogRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLogRenderer.swift; sourceTree = "<group>"; };
+		CE67267B21A6C0560052C275 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		CE67267C21A6C0570052C275 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		CE67267D21A6C0570052C275 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		CE67267E21A6C0570052C275 /* NSLogRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLogRenderer.swift; sourceTree = "<group>"; };
+		CE67269E21A6CD2C0052C275 /* Optional+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+KIS.swift"; sourceTree = "<group>"; };
+		CE67269F21A6CD2C0052C275 /* FileManager+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+KIS.swift"; sourceTree = "<group>"; };
+		CE6726A021A6CD2C0052C275 /* Array+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+KIS.swift"; sourceTree = "<group>"; };
+		CE6726A121A6CD2C0052C275 /* DispatchQueue+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+KIS.swift"; sourceTree = "<group>"; };
+		CE6726AF21A6CD430052C275 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE6726B121A6CD430052C275 /* JSONSerialization+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONSerialization+KIS.swift"; sourceTree = "<group>"; };
+		CE6726B221A6CD430052C275 /* HTTPURLResponse+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+KIS.swift"; sourceTree = "<group>"; };
+		CE6726B321A6CD430052C275 /* Data+KIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+KIS.swift"; sourceTree = "<group>"; };
+		CE6726B421A6CD430052C275 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CE6726B521A6CD430052C275 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CE6726B721A6CD430052C275 /* RestClient+PrepareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RestClient+PrepareRequest.swift"; sourceTree = "<group>"; };
+		CE6726B821A6CD430052C275 /* RestClient+ExecuteRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RestClient+ExecuteRequest.swift"; sourceTree = "<group>"; };
+		CE6726B921A6CD430052C275 /* RestClient+Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RestClient+Authentication.swift"; sourceTree = "<group>"; };
+		CE6726BA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClientAuthenticationDelegate.swift; sourceTree = "<group>"; };
+		CE6726BB21A6CD430052C275 /* RestClient+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RestClient+Error.swift"; sourceTree = "<group>"; };
+		CE6726BC21A6CD430052C275 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		CE6726BE21A6CD430052C275 /* DictionaryDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryDecodable.swift; sourceTree = "<group>"; };
+		CE6726E721A6CD570052C275 /* KNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNetworkError.swift; sourceTree = "<group>"; };
+		CE6726EC21A6CD7D0052C275 /* GlobalActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalActivityIndicator.swift; sourceTree = "<group>"; };
+		CE6726F721A6CD930052C275 /* String+Obfuscation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Obfuscation.swift"; sourceTree = "<group>"; };
+		CE6726F921A6CD930052C275 /* SSLCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLCertificate.swift; sourceTree = "<group>"; };
+		CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionPinningDelegate.swift; sourceTree = "<group>"; };
+		CE67271521A6CDD80052C275 /* KLBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB1526B21A6E36C00C53A41 /* MulticastDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegateTests.swift; sourceTree = "<group>"; };
+		CEB1526E21A6E38000C53A41 /* SafeOptionalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeOptionalTests.swift; sourceTree = "<group>"; };
+		CEB1526F21A6E38000C53A41 /* MultiLogRendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLogRendererTests.swift; sourceTree = "<group>"; };
+		CEB1527021A6E38000C53A41 /* LoggingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingTests.swift; sourceTree = "<group>"; };
+		CEB1527121A6E38000C53A41 /* NSLogRendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLogRendererTests.swift; sourceTree = "<group>"; };
+		CEB1527221A6E38000C53A41 /* KLogKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLogKitTests.swift; sourceTree = "<group>"; };
+		CEB1527321A6E38000C53A41 /* LogLevelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevelTests.swift; sourceTree = "<group>"; };
+		CEB1527521A6E38000C53A41 /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		CEB1527621A6E38000C53A41 /* PrepareRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareRequestTests.swift; sourceTree = "<group>"; };
+		CEB1527721A6E38000C53A41 /* OperatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorTests.swift; sourceTree = "<group>"; };
+		CEB1527821A6E38000C53A41 /* DataKISTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataKISTests.swift; sourceTree = "<group>"; };
+		CEB1527A21A6E38000C53A41 /* RestClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClientTests.swift; sourceTree = "<group>"; };
+		CEB1527B21A6E38000C53A41 /* DictionaryDecodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryDecodableTests.swift; sourceTree = "<group>"; };
+		CEB1527C21A6E38000C53A41 /* JSONSerializationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializationTests.swift; sourceTree = "<group>"; };
+		CEB1527D21A6E38000C53A41 /* HTTPURLResponseKISTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseKISTests.swift; sourceTree = "<group>"; };
+		CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationTests.swift; sourceTree = "<group>"; };
+		CEB1527F21A6E38000C53A41 /* TestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringObfusctionTests.swift; sourceTree = "<group>"; };
+		CEB84E6221A6E09300CB34FC /* KLBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseKitTests.swift; sourceTree = "<group>"; };
+		CEB84E6621A6E09400CB34FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE67261F21A6BEEC0052C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67263E21A6BF140052C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67265A21A6BF550052C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67271221A6CDD80052C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB84E5F21A6E09300CB34FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB84E6721A6E09400CB34FC /* KLBaseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE67261821A6BEEC0052C275 = {
+			isa = PBXGroup;
+			children = (
+				CE67262421A6BEEC0052C275 /* KLBaseKit */,
+				CEB84E6321A6E09400CB34FC /* KLBaseKitTests */,
+				CE67262321A6BEEC0052C275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE67262321A6BEEC0052C275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE67262221A6BEEC0052C275 /* KLBaseKit.framework */,
+				CE67264121A6BF140052C275 /* KLBaseKit.framework */,
+				CE67265D21A6BF550052C275 /* KLBaseKit.framework */,
+				CE67271521A6CDD80052C275 /* KLBaseKit.framework */,
+				CEB84E6221A6E09300CB34FC /* KLBaseKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE67262421A6BEEC0052C275 /* KLBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726EB21A6CD7D0052C275 /* GlobalActivityIndicator */,
+				CE6726E621A6CD500052C275 /* Error */,
+				CE6726AE21A6CD430052C275 /* REST */,
+				CE67269D21A6CD240052C275 /* Extensions */,
+				CE67267821A6C04D0052C275 /* Logging */,
+				CE6726F021A6CD930052C275 /* Security */,
+				CE67266F21A6C0380052C275 /* Mutlicast */,
+				CE67262521A6BEEC0052C275 /* KLBaseKit.h */,
+				CE67262621A6BEEC0052C275 /* Info.plist */,
+			);
+			path = KLBaseKit;
+			sourceTree = "<group>";
+		};
+		CE67266F21A6C0380052C275 /* Mutlicast */ = {
+			isa = PBXGroup;
+			children = (
+				CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */,
+				CE67267121A6C0380052C275 /* MulticastDelegate.swift */,
+			);
+			path = Mutlicast;
+			sourceTree = "<group>";
+		};
+		CE67267821A6C04D0052C275 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				CE67267B21A6C0560052C275 /* Log.swift */,
+				CE67267D21A6C0570052C275 /* Logging.swift */,
+				CE67267C21A6C0570052C275 /* LogLevel.swift */,
+				CE67267921A6C0560052C275 /* LogRenderer.swift */,
+				CE67267A21A6C0560052C275 /* MultiLogRenderer.swift */,
+				CE67267E21A6C0570052C275 /* NSLogRenderer.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		CE67269D21A6CD240052C275 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE67269E21A6CD2C0052C275 /* Optional+KIS.swift */,
+				CE6726A121A6CD2C0052C275 /* DispatchQueue+KIS.swift */,
+				CE67269F21A6CD2C0052C275 /* FileManager+KIS.swift */,
+				CE6726A021A6CD2C0052C275 /* Array+KIS.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE6726AE21A6CD430052C275 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726AF21A6CD430052C275 /* Constants.swift */,
+				CE6726B021A6CD430052C275 /* Extensions */,
+				CE6726B421A6CD430052C275 /* Response.swift */,
+				CE6726B521A6CD430052C275 /* Request.swift */,
+				CE6726B621A6CD430052C275 /* RestClient */,
+				CE6726BD21A6CD430052C275 /* Parsing */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		CE6726B021A6CD430052C275 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726B121A6CD430052C275 /* JSONSerialization+KIS.swift */,
+				CE6726B221A6CD430052C275 /* HTTPURLResponse+KIS.swift */,
+				CE6726B321A6CD430052C275 /* Data+KIS.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE6726B621A6CD430052C275 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726B721A6CD430052C275 /* RestClient+PrepareRequest.swift */,
+				CE6726B821A6CD430052C275 /* RestClient+ExecuteRequest.swift */,
+				CE6726B921A6CD430052C275 /* RestClient+Authentication.swift */,
+				CE6726BA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift */,
+				CE6726BB21A6CD430052C275 /* RestClient+Error.swift */,
+				CE6726BC21A6CD430052C275 /* RestClient.swift */,
+			);
+			path = RestClient;
+			sourceTree = "<group>";
+		};
+		CE6726BD21A6CD430052C275 /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726BE21A6CD430052C275 /* DictionaryDecodable.swift */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		CE6726E621A6CD500052C275 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726E721A6CD570052C275 /* KNetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CE6726EB21A6CD7D0052C275 /* GlobalActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726EC21A6CD7D0052C275 /* GlobalActivityIndicator.swift */,
+			);
+			path = GlobalActivityIndicator;
+			sourceTree = "<group>";
+		};
+		CE6726F021A6CD930052C275 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726F621A6CD930052C275 /* Obfuscation */,
+				CE6726F821A6CD930052C275 /* SSL Pinning */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CE6726F621A6CD930052C275 /* Obfuscation */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726F721A6CD930052C275 /* String+Obfuscation.swift */,
+			);
+			path = Obfuscation;
+			sourceTree = "<group>";
+		};
+		CE6726F821A6CD930052C275 /* SSL Pinning */ = {
+			isa = PBXGroup;
+			children = (
+				CE6726F921A6CD930052C275 /* SSLCertificate.swift */,
+				CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */,
+			);
+			path = "SSL Pinning";
+			sourceTree = "<group>";
+		};
+		CEB1526A21A6E36C00C53A41 /* Mutlicast */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1526B21A6E36C00C53A41 /* MulticastDelegateTests.swift */,
+			);
+			path = Mutlicast;
+			sourceTree = "<group>";
+		};
+		CEB1526D21A6E38000C53A41 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1526E21A6E38000C53A41 /* SafeOptionalTests.swift */,
+				CEB1526F21A6E38000C53A41 /* MultiLogRendererTests.swift */,
+				CEB1527021A6E38000C53A41 /* LoggingTests.swift */,
+				CEB1527121A6E38000C53A41 /* NSLogRendererTests.swift */,
+				CEB1527221A6E38000C53A41 /* KLogKitTests.swift */,
+				CEB1527321A6E38000C53A41 /* LogLevelTests.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		CEB1527421A6E38000C53A41 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1527521A6E38000C53A41 /* RequestTests.swift */,
+				CEB1527621A6E38000C53A41 /* PrepareRequestTests.swift */,
+				CEB1527721A6E38000C53A41 /* OperatorTests.swift */,
+				CEB1527821A6E38000C53A41 /* DataKISTests.swift */,
+				CEB1527A21A6E38000C53A41 /* RestClientTests.swift */,
+				CEB1527B21A6E38000C53A41 /* DictionaryDecodableTests.swift */,
+				CEB1527C21A6E38000C53A41 /* JSONSerializationTests.swift */,
+				CEB1527D21A6E38000C53A41 /* HTTPURLResponseKISTests.swift */,
+				CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */,
+				CEB1527F21A6E38000C53A41 /* TestTests.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		CEB1528021A6E38000C53A41 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CEB84E6321A6E09400CB34FC /* KLBaseKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1526D21A6E38000C53A41 /* Logging */,
+				CEB1527421A6E38000C53A41 /* REST */,
+				CEB1528021A6E38000C53A41 /* Security */,
+				CEB1526A21A6E36C00C53A41 /* Mutlicast */,
+				CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */,
+				CEB84E6621A6E09400CB34FC /* Info.plist */,
+			);
+			path = KLBaseKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE67261D21A6BEEC0052C275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67263321A6BEEC0052C275 /* KLBaseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67263C21A6BF140052C275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67271D21A6CDF90052C275 /* KLBaseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67265821A6BF550052C275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67271F21A6CDFB0052C275 /* KLBaseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67271021A6CDD80052C275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67272021A6CE070052C275 /* KLBaseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE67262121A6BEEC0052C275 /* KLBaseKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE67263621A6BEEC0052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-iOS" */;
+			buildPhases = (
+				CE67261D21A6BEEC0052C275 /* Headers */,
+				CE67261E21A6BEEC0052C275 /* Sources */,
+				CE67261F21A6BEEC0052C275 /* Frameworks */,
+				CE67262021A6BEEC0052C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KLBaseKit-iOS";
+			productName = KBaseKit;
+			productReference = CE67262221A6BEEC0052C275 /* KLBaseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE67264021A6BF140052C275 /* KLBaseKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE67265221A6BF140052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-tvOS" */;
+			buildPhases = (
+				CE67263C21A6BF140052C275 /* Headers */,
+				CE67263D21A6BF140052C275 /* Sources */,
+				CE67263E21A6BF140052C275 /* Frameworks */,
+				CE67263F21A6BF140052C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KLBaseKit-tvOS";
+			productName = KBaseKit;
+			productReference = CE67264121A6BF140052C275 /* KLBaseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE67265C21A6BF550052C275 /* KLBaseKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE67266221A6BF550052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-macOS" */;
+			buildPhases = (
+				CE67265821A6BF550052C275 /* Headers */,
+				CE67265921A6BF550052C275 /* Sources */,
+				CE67265A21A6BF550052C275 /* Frameworks */,
+				CE67265B21A6BF550052C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KLBaseKit-macOS";
+			productName = KBaseKit;
+			productReference = CE67265D21A6BF550052C275 /* KLBaseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE67271421A6CDD80052C275 /* KLBaseKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE67271A21A6CDD80052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-watchOS" */;
+			buildPhases = (
+				CE67271021A6CDD80052C275 /* Headers */,
+				CE67271121A6CDD80052C275 /* Sources */,
+				CE67271221A6CDD80052C275 /* Frameworks */,
+				CE67271321A6CDD80052C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KLBaseKit-watchOS";
+			productName = KBaseKit;
+			productReference = CE67271521A6CDD80052C275 /* KLBaseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEB84E6121A6E09300CB34FC /* KLBaseKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB84E6A21A6E09400CB34FC /* Build configuration list for PBXNativeTarget "KLBaseKitTests" */;
+			buildPhases = (
+				CEB84E5E21A6E09300CB34FC /* Sources */,
+				CEB84E5F21A6E09300CB34FC /* Frameworks */,
+				CEB84E6021A6E09300CB34FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB84E6921A6E09400CB34FC /* PBXTargetDependency */,
+			);
+			name = KLBaseKitTests;
+			productName = KBaseKitTests;
+			productReference = CEB84E6221A6E09300CB34FC /* KLBaseKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE67261921A6BEEC0052C275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Markus Troßbach";
+				TargetAttributes = {
+					CE67262121A6BEEC0052C275 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CE67264021A6BF140052C275 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CE67265C21A6BF550052C275 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CE67271421A6CDD80052C275 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEB84E6121A6E09300CB34FC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = CE67261C21A6BEEC0052C275 /* Build configuration list for PBXProject "KLBaseKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE67261821A6BEEC0052C275;
+			productRefGroup = CE67262321A6BEEC0052C275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE67262121A6BEEC0052C275 /* KLBaseKit-iOS */,
+				CEB84E6121A6E09300CB34FC /* KLBaseKitTests */,
+				CE67264021A6BF140052C275 /* KLBaseKit-tvOS */,
+				CE67265C21A6BF550052C275 /* KLBaseKit-macOS */,
+				CE67271421A6CDD80052C275 /* KLBaseKit-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE67262021A6BEEC0052C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67263F21A6BF140052C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67265B21A6BF550052C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67271321A6CDD80052C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB84E6021A6E09300CB34FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE67261E21A6BEEC0052C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67270D21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */,
+				CE67268521A6C0570052C275 /* Log.swift in Sources */,
+				CE6726C521A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */,
+				CE6726A821A6CD2C0052C275 /* Array+KIS.swift in Sources */,
+				CE6726CB21A6CD430052C275 /* Response.swift in Sources */,
+				CE6726DD21A6CD430052C275 /* RestClient+Error.swift in Sources */,
+				CE6726D121A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */,
+				CE6726C221A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CE67267221A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */,
+				CE6726C821A6CD430052C275 /* Data+KIS.swift in Sources */,
+				CE6726CE21A6CD430052C275 /* Request.swift in Sources */,
+				CE6726E821A6CD570052C275 /* KNetworkError.swift in Sources */,
+				CE6726D721A6CD430052C275 /* RestClient+Authentication.swift in Sources */,
+				CE67268821A6C0570052C275 /* LogLevel.swift in Sources */,
+				CE6726DA21A6CD430052C275 /* RestClientAuthenticationDelegate.swift in Sources */,
+				CE6726A521A6CD2C0052C275 /* FileManager+KIS.swift in Sources */,
+				CE67270721A6CD930052C275 /* String+Obfuscation.swift in Sources */,
+				CE67268221A6C0570052C275 /* MultiLogRenderer.swift in Sources */,
+				CE6726ED21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CE67267521A6C0380052C275 /* MulticastDelegate.swift in Sources */,
+				CE6726E021A6CD430052C275 /* RestClient.swift in Sources */,
+				CE6726BF21A6CD430052C275 /* Constants.swift in Sources */,
+				CE6726E321A6CD430052C275 /* DictionaryDecodable.swift in Sources */,
+				CE67268B21A6C0570052C275 /* Logging.swift in Sources */,
+				CE67268E21A6C0570052C275 /* NSLogRenderer.swift in Sources */,
+				CE67270A21A6CD930052C275 /* SSLCertificate.swift in Sources */,
+				CE6726AB21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */,
+				CE67267F21A6C0570052C275 /* LogRenderer.swift in Sources */,
+				CE6726D421A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CE6726A221A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67263D21A6BF140052C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67270E21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */,
+				CE67268621A6C0570052C275 /* Log.swift in Sources */,
+				CE6726C621A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */,
+				CE6726A921A6CD2C0052C275 /* Array+KIS.swift in Sources */,
+				CE6726CC21A6CD430052C275 /* Response.swift in Sources */,
+				CE6726DE21A6CD430052C275 /* RestClient+Error.swift in Sources */,
+				CE6726D221A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */,
+				CE6726C321A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CE67267321A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */,
+				CE6726C921A6CD430052C275 /* Data+KIS.swift in Sources */,
+				CE6726CF21A6CD430052C275 /* Request.swift in Sources */,
+				CE6726E921A6CD570052C275 /* KNetworkError.swift in Sources */,
+				CE6726D821A6CD430052C275 /* RestClient+Authentication.swift in Sources */,
+				CE67268921A6C0570052C275 /* LogLevel.swift in Sources */,
+				CE6726DB21A6CD430052C275 /* RestClientAuthenticationDelegate.swift in Sources */,
+				CE6726A621A6CD2C0052C275 /* FileManager+KIS.swift in Sources */,
+				CE67270821A6CD930052C275 /* String+Obfuscation.swift in Sources */,
+				CE67268321A6C0570052C275 /* MultiLogRenderer.swift in Sources */,
+				CE6726EE21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CE67267621A6C0380052C275 /* MulticastDelegate.swift in Sources */,
+				CE6726E121A6CD430052C275 /* RestClient.swift in Sources */,
+				CE6726C021A6CD430052C275 /* Constants.swift in Sources */,
+				CE6726E421A6CD430052C275 /* DictionaryDecodable.swift in Sources */,
+				CE67268C21A6C0570052C275 /* Logging.swift in Sources */,
+				CE67268F21A6C0570052C275 /* NSLogRenderer.swift in Sources */,
+				CE67270B21A6CD930052C275 /* SSLCertificate.swift in Sources */,
+				CE6726AC21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */,
+				CE67268021A6C0570052C275 /* LogRenderer.swift in Sources */,
+				CE6726D521A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CE6726A321A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67265921A6BF550052C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67270F21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */,
+				CE67268721A6C0570052C275 /* Log.swift in Sources */,
+				CE6726C721A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */,
+				CE6726AA21A6CD2C0052C275 /* Array+KIS.swift in Sources */,
+				CE6726CD21A6CD430052C275 /* Response.swift in Sources */,
+				CE6726DF21A6CD430052C275 /* RestClient+Error.swift in Sources */,
+				CE6726D321A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */,
+				CE6726C421A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CE67267421A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */,
+				CE6726CA21A6CD430052C275 /* Data+KIS.swift in Sources */,
+				CE6726D021A6CD430052C275 /* Request.swift in Sources */,
+				CE6726EA21A6CD570052C275 /* KNetworkError.swift in Sources */,
+				CE6726D921A6CD430052C275 /* RestClient+Authentication.swift in Sources */,
+				CE67268A21A6C0570052C275 /* LogLevel.swift in Sources */,
+				CE6726DC21A6CD430052C275 /* RestClientAuthenticationDelegate.swift in Sources */,
+				CE6726A721A6CD2C0052C275 /* FileManager+KIS.swift in Sources */,
+				CE67270921A6CD930052C275 /* String+Obfuscation.swift in Sources */,
+				CE67268421A6C0570052C275 /* MultiLogRenderer.swift in Sources */,
+				CE6726EF21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CE67267721A6C0380052C275 /* MulticastDelegate.swift in Sources */,
+				CE6726E221A6CD430052C275 /* RestClient.swift in Sources */,
+				CE6726C121A6CD430052C275 /* Constants.swift in Sources */,
+				CE6726E521A6CD430052C275 /* DictionaryDecodable.swift in Sources */,
+				CE67268D21A6C0570052C275 /* Logging.swift in Sources */,
+				CE67269021A6C0570052C275 /* NSLogRenderer.swift in Sources */,
+				CE67270C21A6CD930052C275 /* SSLCertificate.swift in Sources */,
+				CE6726AD21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */,
+				CE67268121A6C0570052C275 /* LogRenderer.swift in Sources */,
+				CE6726D621A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CE6726A421A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE67271121A6CDD80052C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67272421A6CE210052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CE67273221A6CE210052C275 /* FileManager+KIS.swift in Sources */,
+				CE67273421A6CE210052C275 /* Log.swift in Sources */,
+				CE67272C21A6CE210052C275 /* RestClientAuthenticationDelegate.swift in Sources */,
+				CE67272921A6CE210052C275 /* RestClient+PrepareRequest.swift in Sources */,
+				CE67272821A6CE210052C275 /* Request.swift in Sources */,
+				CE67272D21A6CE210052C275 /* RestClient+Error.swift in Sources */,
+				CE67273021A6CE210052C275 /* Optional+KIS.swift in Sources */,
+				CE67273921A6CE210052C275 /* NSLogRenderer.swift in Sources */,
+				CE67272521A6CE210052C275 /* HTTPURLResponse+KIS.swift in Sources */,
+				CE67272121A6CE210052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CE67273C21A6CE210052C275 /* URLSessionPinningDelegate.swift in Sources */,
+				CE67273521A6CE210052C275 /* Logging.swift in Sources */,
+				CE67272621A6CE210052C275 /* Data+KIS.swift in Sources */,
+				CE67272221A6CE210052C275 /* KNetworkError.swift in Sources */,
+				CE67272321A6CE210052C275 /* Constants.swift in Sources */,
+				CE67273B21A6CE210052C275 /* SSLCertificate.swift in Sources */,
+				CE67273E21A6CE210052C275 /* MulticastDelegate.swift in Sources */,
+				CE67272B21A6CE210052C275 /* RestClient+Authentication.swift in Sources */,
+				CE67273621A6CE210052C275 /* LogLevel.swift in Sources */,
+				CE67273D21A6CE210052C275 /* StrongMulticastDelegate.swift in Sources */,
+				CE67272A21A6CE210052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CE67273A21A6CE210052C275 /* String+Obfuscation.swift in Sources */,
+				CE67273321A6CE210052C275 /* Array+KIS.swift in Sources */,
+				CE67272E21A6CE210052C275 /* RestClient.swift in Sources */,
+				CE67273121A6CE210052C275 /* DispatchQueue+KIS.swift in Sources */,
+				CE67273721A6CE210052C275 /* LogRenderer.swift in Sources */,
+				CE67273821A6CE210052C275 /* MultiLogRenderer.swift in Sources */,
+				CE67272F21A6CE210052C275 /* DictionaryDecodable.swift in Sources */,
+				CE67272721A6CE210052C275 /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB84E5E21A6E09300CB34FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB1528921A6E38000C53A41 /* RequestTests.swift in Sources */,
+				CEB1529221A6E38000C53A41 /* AuthenticationTests.swift in Sources */,
+				CEB1529021A6E38000C53A41 /* JSONSerializationTests.swift in Sources */,
+				CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */,
+				CEB1528421A6E38000C53A41 /* MultiLogRendererTests.swift in Sources */,
+				CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */,
+				CEB1528E21A6E38000C53A41 /* RestClientTests.swift in Sources */,
+				CEB1529121A6E38000C53A41 /* HTTPURLResponseKISTests.swift in Sources */,
+				CEB1528F21A6E38000C53A41 /* DictionaryDecodableTests.swift in Sources */,
+				CEB1529321A6E38000C53A41 /* TestTests.swift in Sources */,
+				CEB1528721A6E38000C53A41 /* KLogKitTests.swift in Sources */,
+				CEB1528B21A6E38000C53A41 /* OperatorTests.swift in Sources */,
+				CEB1528C21A6E38000C53A41 /* DataKISTests.swift in Sources */,
+				CEB1528821A6E38000C53A41 /* LogLevelTests.swift in Sources */,
+				CEB1528321A6E38000C53A41 /* SafeOptionalTests.swift in Sources */,
+				CEB1528521A6E38000C53A41 /* LoggingTests.swift in Sources */,
+				CEB1528A21A6E38000C53A41 /* PrepareRequestTests.swift in Sources */,
+				CEB1528621A6E38000C53A41 /* NSLogRendererTests.swift in Sources */,
+				CEB1526C21A6E36C00C53A41 /* MulticastDelegateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB84E6921A6E09400CB34FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE67262121A6BEEC0052C275 /* KLBaseKit-iOS */;
+			targetProxy = CEB84E6821A6E09400CB34FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE67263421A6BEEC0052C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE67263521A6BEEC0052C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE67263721A6BEEC0052C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE67263821A6BEEC0052C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE67265321A6BF140052C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		CE67265421A6BF140052C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		CE67266321A6BF550052C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		CE67266421A6BF550052C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		CE67271B21A6CDD80052C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		CE67271C21A6CDD80052C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLBaseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKit;
+				PRODUCT_NAME = KLBaseKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		CEB84E6B21A6E09400CB34FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				INFOPLIST_FILE = KLBaseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB84E6C21A6E09400CB34FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				INFOPLIST_FILE = KLBaseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KLBaseKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE67261C21A6BEEC0052C275 /* Build configuration list for PBXProject "KLBaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE67263421A6BEEC0052C275 /* Debug */,
+				CE67263521A6BEEC0052C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE67263621A6BEEC0052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE67263721A6BEEC0052C275 /* Debug */,
+				CE67263821A6BEEC0052C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE67265221A6BF140052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE67265321A6BF140052C275 /* Debug */,
+				CE67265421A6BF140052C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE67266221A6BF550052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE67266321A6BF550052C275 /* Debug */,
+				CE67266421A6BF550052C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE67271A21A6CDD80052C275 /* Build configuration list for PBXNativeTarget "KLBaseKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE67271B21A6CDD80052C275 /* Debug */,
+				CE67271C21A6CDD80052C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB84E6A21A6E09400CB34FC /* Build configuration list for PBXNativeTarget "KLBaseKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB84E6B21A6E09400CB34FC /* Debug */,
+				CEB84E6C21A6E09400CB34FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE67261921A6BEEC0052C275 /* Project object */;
+}
