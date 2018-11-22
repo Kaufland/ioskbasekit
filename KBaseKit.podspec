@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.11'
   s.watchos.deployment_target = '4.3'
   s.requires_arc = true
-  s.source_files = "KBaseKit*/**/*.{h,m,mm,c,ccp,hpp,swift}"
+  s.source_files = "KBaseKit/**/*.{h,m,mm,c,ccp,hpp,swift}"
 
 end

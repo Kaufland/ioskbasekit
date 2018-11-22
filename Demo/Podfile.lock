@@ -1,0 +1,16 @@
+PODS:
+  - KBaseKit (0.2.0)
+
+DEPENDENCIES:
+  - KBaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  KBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KBaseKit: 476daaaa4a66d006d1652c6390c822ed9021c875
+
+PODFILE CHECKSUM: eb5668605cbc2135ce38c59613ce27e1213fdf83
+
+COCOAPODS: 1.5.3

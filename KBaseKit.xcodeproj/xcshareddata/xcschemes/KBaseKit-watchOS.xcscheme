@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE67271421A6CDD80052C275"
-               BuildableName = "KBaseKit_watchOS.framework"
+               BuildableName = "KBaseKit.framework"
                BlueprintName = "KBaseKit-watchOS"
                ReferencedContainer = "container:KBaseKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67271421A6CDD80052C275"
-            BuildableName = "KBaseKit_watchOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-watchOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67271421A6CDD80052C275"
-            BuildableName = "KBaseKit_watchOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-watchOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>

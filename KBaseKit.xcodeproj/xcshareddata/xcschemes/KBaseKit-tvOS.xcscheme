@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE67264021A6BF140052C275"
-               BuildableName = "KBaseKit_tvOS.framework"
+               BuildableName = "KBaseKit.framework"
                BlueprintName = "KBaseKit-tvOS"
                ReferencedContainer = "container:KBaseKit.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67264021A6BF140052C275"
-            BuildableName = "KBaseKit_tvOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-tvOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67264021A6BF140052C275"
-            BuildableName = "KBaseKit_tvOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-tvOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67264021A6BF140052C275"
-            BuildableName = "KBaseKit_tvOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-tvOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>

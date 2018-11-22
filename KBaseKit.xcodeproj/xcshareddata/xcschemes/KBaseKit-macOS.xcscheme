@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE67265C21A6BF550052C275"
-               BuildableName = "KBaseKit_macOS.framework"
+               BuildableName = "KBaseKit.framework"
                BlueprintName = "KBaseKit-macOS"
                ReferencedContainer = "container:KBaseKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67265C21A6BF550052C275"
-            BuildableName = "KBaseKit_macOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-macOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67265C21A6BF550052C275"
-            BuildableName = "KBaseKit_macOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-macOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>

@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'schwarzit@vs-ssh.visualstudio.com:v3/schwarzit/kaufland.mobile.kul/CocoaPods'
+
+platform :ios, '12.0'
+
+use_frameworks!
+
+def app_pods
+    pod 'KBaseKit', :path => '../'
+end
+
+target 'KBaseKitDemo' do
+	app_pods
+end

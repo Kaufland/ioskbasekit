@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-               BuildableName = "KBaseKit_iOS.framework"
+               BuildableName = "KBaseKit.framework"
                BlueprintName = "KBaseKit-iOS"
                ReferencedContainer = "container:KBaseKit.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-            BuildableName = "KBaseKit_iOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-iOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-            BuildableName = "KBaseKit_iOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-iOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-            BuildableName = "KBaseKit_iOS.framework"
+            BuildableName = "KBaseKit.framework"
             BlueprintName = "KBaseKit-iOS"
             ReferencedContainer = "container:KBaseKit.xcodeproj">
          </BuildableReference>

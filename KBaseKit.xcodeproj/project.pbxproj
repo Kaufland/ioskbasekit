@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE67262C21A6BEEC0052C275 /* KBaseKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KBaseKit_iOS.framework */; };
+		CE67262C21A6BEEC0052C275 /* KBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KBaseKit.framework */; };
 		CE67263121A6BEEC0052C275 /* KBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67263021A6BEEC0052C275 /* KBaseKitTests.swift */; };
 		CE67263321A6BEEC0052C275 /* KBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE67267221A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
@@ -146,14 +146,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE67262221A6BEEC0052C275 /* KBaseKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67262221A6BEEC0052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67262521A6BEEC0052C275 /* KBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBaseKit.h; sourceTree = "<group>"; };
 		CE67262621A6BEEC0052C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE67262B21A6BEEC0052C275 /* KBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67263021A6BEEC0052C275 /* KBaseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseKitTests.swift; sourceTree = "<group>"; };
 		CE67263221A6BEEC0052C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE67264121A6BF140052C275 /* KBaseKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE67265D21A6BF550052C275 /* KBaseKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67264121A6BF140052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67265D21A6BF550052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongMulticastDelegate.swift; sourceTree = "<group>"; };
 		CE67267121A6C0380052C275 /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
 		CE67267921A6C0560052C275 /* LogRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRenderer.swift; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		CE6726F721A6CD930052C275 /* String+Obfuscation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Obfuscation.swift"; sourceTree = "<group>"; };
 		CE6726F921A6CD930052C275 /* SSLCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLCertificate.swift; sourceTree = "<group>"; };
 		CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionPinningDelegate.swift; sourceTree = "<group>"; };
-		CE67271521A6CDD80052C275 /* KBaseKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE67271521A6CDD80052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE67262C21A6BEEC0052C275 /* KBaseKit_iOS.framework in Frameworks */,
+				CE67262C21A6BEEC0052C275 /* KBaseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,11 +239,11 @@
 		CE67262321A6BEEC0052C275 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE67262221A6BEEC0052C275 /* KBaseKit_iOS.framework */,
+				CE67262221A6BEEC0052C275 /* KBaseKit.framework */,
 				CE67262B21A6BEEC0052C275 /* KBaseKitTests.xctest */,
-				CE67264121A6BF140052C275 /* KBaseKit_tvOS.framework */,
-				CE67265D21A6BF550052C275 /* KBaseKit_macOS.framework */,
-				CE67271521A6CDD80052C275 /* KBaseKit_watchOS.framework */,
+				CE67264121A6BF140052C275 /* KBaseKit.framework */,
+				CE67265D21A6BF550052C275 /* KBaseKit.framework */,
+				CE67271521A6CDD80052C275 /* KBaseKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -445,7 +445,7 @@
 			);
 			name = "KBaseKit-iOS";
 			productName = KBaseKit;
-			productReference = CE67262221A6BEEC0052C275 /* KBaseKit_iOS.framework */;
+			productReference = CE67262221A6BEEC0052C275 /* KBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE67262A21A6BEEC0052C275 /* KBaseKitTests */ = {
@@ -481,7 +481,7 @@
 			);
 			name = "KBaseKit-tvOS";
 			productName = KBaseKit;
-			productReference = CE67264121A6BF140052C275 /* KBaseKit_tvOS.framework */;
+			productReference = CE67264121A6BF140052C275 /* KBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE67265C21A6BF550052C275 /* KBaseKit-macOS */ = {
@@ -499,7 +499,7 @@
 			);
 			name = "KBaseKit-macOS";
 			productName = KBaseKit;
-			productReference = CE67265D21A6BF550052C275 /* KBaseKit_macOS.framework */;
+			productReference = CE67265D21A6BF550052C275 /* KBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE67271421A6CDD80052C275 /* KBaseKit-watchOS */ = {
@@ -517,7 +517,7 @@
 			);
 			name = "KBaseKit-watchOS";
 			productName = KBaseKit;
-			productReference = CE67271521A6CDD80052C275 /* KBaseKit_watchOS.framework */;
+			productReference = CE67271521A6CDD80052C275 /* KBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -916,7 +916,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -943,7 +943,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1007,7 +1007,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1035,7 +1035,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1066,7 +1066,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1095,7 +1095,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1121,7 +1121,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1149,7 +1149,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = KBaseKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
