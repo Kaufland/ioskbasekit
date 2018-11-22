@@ -64,5 +64,20 @@ class NSLogRendererTests: XCTestCase {
         Log.e("hallo%@", args: "Welt8")
         XCTAssertEqual(renderer?.lastMessage, "[E] halloWelt8")
     }
+    
+    func testSetUser() {
+        Log.setUser(identifier: "i", email: "e", name: "n")
+    }
+    
+    func testCustomKey() {
+        Log.setCustomKey(key: "boolKey", value: true)
+        Log.setCustomKey(key: "floatKey", value: 12.0)
+        Log.setCustomKey(key: "intKey", value: 11)
+        Log.setCustomKey(key: "stringKey", value: "test")
+    }
+    
+    func testNonFatal() {
+        Log.recordNonFatal(domain: "domain", code: 1337, customAttributes: ["hello": "world" as AnyObject])
+    }
 
 }

@@ -177,6 +177,7 @@
 		CEB152BA21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
 		CEB152BB21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
 		CEB152BC21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
+		CEB152BE21A706D800C53A41 /* SecurityStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152BD21A706D800C53A41 /* SecurityStatusTests.swift */; };
 		CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */; };
 		CEB84E6721A6E09400CB34FC /* KLBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KLBaseKit.framework */; };
 /* End PBXBuildFile section */
@@ -253,6 +254,7 @@
 		CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityStatus+Debugger.swift"; sourceTree = "<group>"; };
 		CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityStatus+Jailbreak.swift"; sourceTree = "<group>"; };
 		CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityStatus+Proxy.swift"; sourceTree = "<group>"; };
+		CEB152BD21A706D800C53A41 /* SecurityStatusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityStatusTests.swift; sourceTree = "<group>"; };
 		CEB84E6221A6E09300CB34FC /* KLBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseKitTests.swift; sourceTree = "<group>"; };
 		CEB84E6621A6E09400CB34FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -498,6 +500,7 @@
 		CEB1528021A6E38000C53A41 /* Security */ = {
 			isa = PBXGroup;
 			children = (
+				CEB152BD21A706D800C53A41 /* SecurityStatusTests.swift */,
 				CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */,
 			);
 			path = Security;
@@ -942,6 +945,7 @@
 				CEB1528921A6E38000C53A41 /* RequestTests.swift in Sources */,
 				CEB1529221A6E38000C53A41 /* AuthenticationTests.swift in Sources */,
 				CEB1529021A6E38000C53A41 /* JSONSerializationTests.swift in Sources */,
+				CEB152BE21A706D800C53A41 /* SecurityStatusTests.swift in Sources */,
 				CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */,
 				CEB1528421A6E38000C53A41 /* MultiLogRendererTests.swift in Sources */,
 				CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */,

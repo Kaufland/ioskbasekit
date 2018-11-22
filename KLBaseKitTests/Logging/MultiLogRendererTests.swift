@@ -66,4 +66,52 @@ class MultiLogRendererTests: XCTestCase {
         Log.e("hallo%@", args: "Welt8")
         XCTAssertEqual(renderer1?.errorMessage, "halloWelt8")
         XCTAssertEqual(renderer2?.errorMessage, "halloWelt8")
-    }}
+    }
+    
+    func testSetUser() {
+        Log.setUser(identifier: "i", email: "e", name: "n")
+        XCTAssertEqual(renderer1?.lastUserName, "n")
+        XCTAssertEqual(renderer1?.lastUserEmail, "e")
+        XCTAssertEqual(renderer1?.lastUserIdentifier, "i")
+        XCTAssertEqual(renderer2?.lastUserName, "n")
+        XCTAssertEqual(renderer2?.lastUserEmail, "e")
+        XCTAssertEqual(renderer2?.lastUserIdentifier, "i")
+    }
+    
+    func testCustomKey() {
+        Log.setCustomKey(key: "boolKey", value: true)
+        XCTAssertEqual(renderer1?.lastCustomKey, "boolKey")
+        XCTAssertEqual(renderer1?.lastCustomValueBool, true)
+        XCTAssertEqual(renderer2?.lastCustomKey, "boolKey")
+        XCTAssertEqual(renderer2?.lastCustomValueBool, true)
+        
+        Log.setCustomKey(key: "floatKey", value: 12.0)
+        XCTAssertEqual(renderer1?.lastCustomKey, "floatKey")
+        XCTAssertEqual(renderer1?.lastCustomValueFloat, 12.0)
+        XCTAssertEqual(renderer2?.lastCustomKey, "floatKey")
+        XCTAssertEqual(renderer2?.lastCustomValueFloat, 12.0)
+        
+        Log.setCustomKey(key: "intKey", value: 11)
+        XCTAssertEqual(renderer1?.lastCustomKey, "intKey")
+        XCTAssertEqual(renderer1?.lastCustomValueInt, 11)
+        XCTAssertEqual(renderer2?.lastCustomKey, "intKey")
+        XCTAssertEqual(renderer2?.lastCustomValueInt, 11)
+        
+        Log.setCustomKey(key: "stringKey", value: "test")
+        XCTAssertEqual(renderer1?.lastCustomKey, "stringKey")
+        XCTAssertEqual(renderer1?.lastCustomValueString, "test")
+        XCTAssertEqual(renderer2?.lastCustomKey, "stringKey")
+        XCTAssertEqual(renderer2?.lastCustomValueString, "test")
+    }
+    
+    func testNonFatal() {
+        Log.recordNonFatal(domain: "domain", code: 1337, customAttributes: ["hello": "world" as AnyObject])
+        
+        XCTAssertEqual(renderer1?.lastNonFatalDomain, "domain")
+        XCTAssertEqual(renderer1?.lastNonFatalCode, 1337)
+        XCTAssert((renderer1?.lastNonFatalCustomAttributes?["hello"] as? String) == "world")
+        XCTAssertEqual(renderer2?.lastNonFatalDomain, "domain")
+        XCTAssertEqual(renderer2?.lastNonFatalCode, 1337)
+        XCTAssert((renderer2?.lastNonFatalCustomAttributes?["hello"] as? String) == "world")
+    }
+}

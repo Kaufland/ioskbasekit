@@ -10,8 +10,14 @@ import XCTest
 @testable import KLBaseKit
 
 class TestLogRenderer: LogRenderer {
+    var lastNonFatalDomain: String?
+    var lastNonFatalCode: Int?
+    var lastNonFatalCustomAttributes: [String: AnyObject]?
+    
     func recordNonFatal(domain: String, code: Int, customAttributes: [String : AnyObject]?) {
-        //nothing
+        lastNonFatalDomain = domain
+        lastNonFatalCode = code
+        lastNonFatalCustomAttributes = customAttributes
     }
     
     var verboseMessage: String?
@@ -39,24 +45,40 @@ class TestLogRenderer: LogRenderer {
         self.errorMessage = message
     }
 
+    var lastUserIdentifier: String?
+    var lastUserEmail: String?
+    var lastUserName: String?
+    
     func setUser(identifier: String?, email: String?, name: String?) {
-        //nothing
+        lastUserIdentifier = identifier
+        lastUserEmail = email
+        lastUserName = name
     }
 
+    var lastCustomKey: String?
+    var lastCustomValueInt: Int?
+    var lastCustomValueBool: Bool?
+    var lastCustomValueFloat: Float?
+    var lastCustomValueString: String?
+    
     func setCustomKey(key: String, value: Int?) {
-        //nothing
+        lastCustomKey = key
+        lastCustomValueInt = value
     }
 
     func setCustomKey(key: String, value: Bool?) {
-        //nothing
+        lastCustomKey = key
+        lastCustomValueBool = value
     }
 
     func setCustomKey(key: String, value: Float?) {
-        //nothing
+        lastCustomKey = key
+        lastCustomValueFloat = value
     }
 
     func setCustomKey(key: String, value: String?) {
-        //nothing
+        lastCustomKey = key
+        lastCustomValueString = value
     }
 }
 
@@ -102,6 +124,39 @@ class KLogKitTests: XCTestCase {
         XCTAssertEqual(renderer?.errorMessage, "test4")
         Log.e("hallo%@", args: "Welt8")
         XCTAssertEqual(renderer?.errorMessage, "halloWelt8")
+    }
+    
+    func testSetUser() {
+        Log.setUser(identifier: "i", email: "e", name: "n")
+        XCTAssertEqual(renderer?.lastUserName, "n")
+        XCTAssertEqual(renderer?.lastUserEmail, "e")
+        XCTAssertEqual(renderer?.lastUserIdentifier, "i")
+    }
+    
+    func testCustomKey() {
+        Log.setCustomKey(key: "boolKey", value: true)
+        XCTAssertEqual(renderer?.lastCustomKey, "boolKey")
+        XCTAssertEqual(renderer?.lastCustomValueBool, true)
+        
+        Log.setCustomKey(key: "floatKey", value: 12.0)
+        XCTAssertEqual(renderer?.lastCustomKey, "floatKey")
+        XCTAssertEqual(renderer?.lastCustomValueFloat, 12.0)
+        
+        Log.setCustomKey(key: "intKey", value: 11)
+        XCTAssertEqual(renderer?.lastCustomKey, "intKey")
+        XCTAssertEqual(renderer?.lastCustomValueInt, 11)
+        
+        Log.setCustomKey(key: "stringKey", value: "test")
+        XCTAssertEqual(renderer?.lastCustomKey, "stringKey")
+        XCTAssertEqual(renderer?.lastCustomValueString, "test")
+    }
+    
+    func testNonFatal() {
+        Log.recordNonFatal(domain: "domain", code: 1337, customAttributes: ["hello": "world" as AnyObject])
+        
+        XCTAssertEqual(renderer?.lastNonFatalDomain, "domain")
+        XCTAssertEqual(renderer?.lastNonFatalCode, 1337)
+        XCTAssert((renderer?.lastNonFatalCustomAttributes?["hello"] as? String) == "world")
     }
 
 }

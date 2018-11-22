@@ -34,6 +34,11 @@ class JSONSerializationTests: XCTestCase {
 
         let testData2 = "[{\"string\":\"hallo welt\"}]".data(using: .utf8)
         XCTAssertThrowsError(try JSONSerialization.jsonObject(type: TestObjectType.self, data: testData2))
+        
+        let testData3 = Data()
+        XCTAssertNil(try JSONSerialization.jsonObject(type: TestObjectType.self, data: testData3))
+        XCTAssertNil(try JSONSerialization.jsonObject(type: TestObjectType.self, data: nil))
+        
     }
 
     func testArray() {
@@ -47,6 +52,10 @@ class JSONSerializationTests: XCTestCase {
 
         let testData2 = "{\"string\":\"hallo welt\"}".data(using: .utf8)
         XCTAssertThrowsError(try JSONSerialization.jsonObjects(type: TestObjectType.self, data: testData2))
+        
+        let testData3 = Data()
+        XCTAssertNil(try JSONSerialization.jsonObjects(type: TestObjectType.self, data: testData3))
+        XCTAssertNil(try JSONSerialization.jsonObjects(type: TestObjectType.self, data: nil))
     }
 
 }

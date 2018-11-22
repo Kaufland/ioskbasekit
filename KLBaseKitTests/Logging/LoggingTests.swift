@@ -59,5 +59,38 @@ class LoggingTests: XCTestCase, Logging {
         log(.error, string: "test4")
         XCTAssertEqual(renderer?.errorMessage, "LoggingTests: test4")
     }
+    
+    func testSetUser() {
+        setUser(identifier: "i", email: "e", name: "n")
+        XCTAssertEqual(renderer?.lastUserName, "n")
+        XCTAssertEqual(renderer?.lastUserEmail, "e")
+        XCTAssertEqual(renderer?.lastUserIdentifier, "i")
+    }
+    
+    func testCustomKey() {
+        setCustomKey(key: "boolKey", value: true)
+        XCTAssertEqual(renderer?.lastCustomKey, "boolKey")
+        XCTAssertEqual(renderer?.lastCustomValueBool, true)
+        
+        setCustomKey(key: "floatKey", value: 12.0)
+        XCTAssertEqual(renderer?.lastCustomKey, "floatKey")
+        XCTAssertEqual(renderer?.lastCustomValueFloat, 12.0)
+        
+        setCustomKey(key: "intKey", value: 11)
+        XCTAssertEqual(renderer?.lastCustomKey, "intKey")
+        XCTAssertEqual(renderer?.lastCustomValueInt, 11)
+        
+        setCustomKey(key: "stringKey", value: "test")
+        XCTAssertEqual(renderer?.lastCustomKey, "stringKey")
+        XCTAssertEqual(renderer?.lastCustomValueString, "test")
+    }
+    
+    func testNonFatal() {
+        LoggingTests.recordNonFatal(domain: "domain", code: 1337, customAttributes: ["hello": "world" as AnyObject])
+        
+        XCTAssertEqual(renderer?.lastNonFatalDomain, "domain")
+        XCTAssertEqual(renderer?.lastNonFatalCode, 1337)
+        XCTAssert((renderer?.lastNonFatalCustomAttributes?["hello"] as? String) == "world")
+    }
 
 }
