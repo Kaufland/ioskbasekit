@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#include "ObjC.h"
 
 //! Project version number for KBaseKit.
 FOUNDATION_EXPORT double KLBaseKitVersionNumber;

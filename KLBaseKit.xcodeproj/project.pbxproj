@@ -149,6 +149,34 @@
 		CEB1529221A6E38000C53A41 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */; };
 		CEB1529321A6E38000C53A41 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527F21A6E38000C53A41 /* TestTests.swift */; };
 		CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */; };
+		CEB1529821A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529721A6FFAB00C53A41 /* LocalizationStringProvider.swift */; };
+		CEB1529921A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529721A6FFAB00C53A41 /* LocalizationStringProvider.swift */; };
+		CEB1529A21A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529721A6FFAB00C53A41 /* LocalizationStringProvider.swift */; };
+		CEB1529B21A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529721A6FFAB00C53A41 /* LocalizationStringProvider.swift */; };
+		CEB152A021A7007D00C53A41 /* ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB1529D21A7007D00C53A41 /* ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB152A121A7007D00C53A41 /* ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB1529D21A7007D00C53A41 /* ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB152A221A7007D00C53A41 /* ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB1529D21A7007D00C53A41 /* ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB152A321A7007D00C53A41 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529E21A7007D00C53A41 /* ObjC.m */; };
+		CEB152A421A7007D00C53A41 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529E21A7007D00C53A41 /* ObjC.m */; };
+		CEB152A521A7007D00C53A41 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529E21A7007D00C53A41 /* ObjC.m */; };
+		CEB152A621A7007D00C53A41 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1529E21A7007D00C53A41 /* ObjC.m */; };
+		CEB152A721A700A200C53A41 /* ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB1529D21A7007D00C53A41 /* ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB152AD21A7017800C53A41 /* SecurityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152A921A7017800C53A41 /* SecurityStatus.swift */; };
+		CEB152AE21A7017800C53A41 /* SecurityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152A921A7017800C53A41 /* SecurityStatus.swift */; };
+		CEB152AF21A7017800C53A41 /* SecurityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152A921A7017800C53A41 /* SecurityStatus.swift */; };
+		CEB152B021A7017800C53A41 /* SecurityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152A921A7017800C53A41 /* SecurityStatus.swift */; };
+		CEB152B121A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */; };
+		CEB152B221A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */; };
+		CEB152B321A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */; };
+		CEB152B421A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */; };
+		CEB152B521A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */; };
+		CEB152B621A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */; };
+		CEB152B721A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */; };
+		CEB152B821A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */; };
+		CEB152B921A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
+		CEB152BA21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
+		CEB152BB21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
+		CEB152BC21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */; };
 		CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */; };
 		CEB84E6721A6E09400CB34FC /* KLBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KLBaseKit.framework */; };
 /* End PBXBuildFile section */
@@ -218,6 +246,13 @@
 		CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationTests.swift; sourceTree = "<group>"; };
 		CEB1527F21A6E38000C53A41 /* TestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
 		CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringObfusctionTests.swift; sourceTree = "<group>"; };
+		CEB1529721A6FFAB00C53A41 /* LocalizationStringProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationStringProvider.swift; sourceTree = "<group>"; };
+		CEB1529D21A7007D00C53A41 /* ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
+		CEB1529E21A7007D00C53A41 /* ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
+		CEB152A921A7017800C53A41 /* SecurityStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityStatus.swift; sourceTree = "<group>"; };
+		CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityStatus+Debugger.swift"; sourceTree = "<group>"; };
+		CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityStatus+Jailbreak.swift"; sourceTree = "<group>"; };
+		CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecurityStatus+Proxy.swift"; sourceTree = "<group>"; };
 		CEB84E6221A6E09300CB34FC /* KLBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseKitTests.swift; sourceTree = "<group>"; };
 		CEB84E6621A6E09400CB34FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -287,12 +322,14 @@
 		CE67262421A6BEEC0052C275 /* KLBaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				CEB1529C21A7007D00C53A41 /* ObjC */,
 				CE6726EB21A6CD7D0052C275 /* GlobalActivityIndicator */,
 				CE6726E621A6CD500052C275 /* Error */,
 				CE6726AE21A6CD430052C275 /* REST */,
 				CE67269D21A6CD240052C275 /* Extensions */,
 				CE67267821A6C04D0052C275 /* Logging */,
 				CE6726F021A6CD930052C275 /* Security */,
+				CEB1529621A6FFAB00C53A41 /* Localization */,
 				CE67266F21A6C0380052C275 /* Mutlicast */,
 				CE67262521A6BEEC0052C275 /* KLBaseKit.h */,
 				CE67262621A6BEEC0052C275 /* Info.plist */,
@@ -396,6 +433,7 @@
 		CE6726F021A6CD930052C275 /* Security */ = {
 			isa = PBXGroup;
 			children = (
+				CEB152A821A7017800C53A41 /* SecurityStatus */,
 				CE6726F621A6CD930052C275 /* Obfuscation */,
 				CE6726F821A6CD930052C275 /* SSL Pinning */,
 			);
@@ -465,6 +503,34 @@
 			path = Security;
 			sourceTree = "<group>";
 		};
+		CEB1529621A6FFAB00C53A41 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1529721A6FFAB00C53A41 /* LocalizationStringProvider.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		CEB1529C21A7007D00C53A41 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1529D21A7007D00C53A41 /* ObjC.h */,
+				CEB1529E21A7007D00C53A41 /* ObjC.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		CEB152A821A7017800C53A41 /* SecurityStatus */ = {
+			isa = PBXGroup;
+			children = (
+				CEB152A921A7017800C53A41 /* SecurityStatus.swift */,
+				CEB152AA21A7017800C53A41 /* SecurityStatus+Debugger.swift */,
+				CEB152AB21A7017800C53A41 /* SecurityStatus+Jailbreak.swift */,
+				CEB152AC21A7017800C53A41 /* SecurityStatus+Proxy.swift */,
+			);
+			path = SecurityStatus;
+			sourceTree = "<group>";
+		};
 		CEB84E6321A6E09400CB34FC /* KLBaseKitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,6 +551,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB152A721A700A200C53A41 /* ObjC.h in Headers */,
 				CE67263321A6BEEC0052C275 /* KLBaseKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +560,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB152A021A7007D00C53A41 /* ObjC.h in Headers */,
 				CE67271D21A6CDF90052C275 /* KLBaseKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +569,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB152A121A7007D00C53A41 /* ObjC.h in Headers */,
 				CE67271F21A6CDFB0052C275 /* KLBaseKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +578,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB152A221A7007D00C53A41 /* ObjC.h in Headers */,
 				CE67272021A6CE070052C275 /* KLBaseKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,12 +769,14 @@
 			files = (
 				CE67270D21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */,
 				CE67268521A6C0570052C275 /* Log.swift in Sources */,
+				CEB152B921A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */,
 				CE6726C521A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */,
 				CE6726A821A6CD2C0052C275 /* Array+KIS.swift in Sources */,
 				CE6726CB21A6CD430052C275 /* Response.swift in Sources */,
 				CE6726DD21A6CD430052C275 /* RestClient+Error.swift in Sources */,
 				CE6726D121A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */,
 				CE6726C221A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CEB152B521A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */,
 				CE67267221A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */,
 				CE6726C821A6CD430052C275 /* Data+KIS.swift in Sources */,
 				CE6726CE21A6CD430052C275 /* Request.swift in Sources */,
@@ -716,6 +788,7 @@
 				CE67270721A6CD930052C275 /* String+Obfuscation.swift in Sources */,
 				CE67268221A6C0570052C275 /* MultiLogRenderer.swift in Sources */,
 				CE6726ED21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CEB152AD21A7017800C53A41 /* SecurityStatus.swift in Sources */,
 				CE67267521A6C0380052C275 /* MulticastDelegate.swift in Sources */,
 				CE6726E021A6CD430052C275 /* RestClient.swift in Sources */,
 				CE6726BF21A6CD430052C275 /* Constants.swift in Sources */,
@@ -726,7 +799,10 @@
 				CE6726AB21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */,
 				CE67267F21A6C0570052C275 /* LogRenderer.swift in Sources */,
 				CE6726D421A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CEB152B121A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */,
+				CEB1529821A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */,
 				CE6726A221A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
+				CEB152A321A7007D00C53A41 /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,12 +812,14 @@
 			files = (
 				CE67270E21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */,
 				CE67268621A6C0570052C275 /* Log.swift in Sources */,
+				CEB152BA21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */,
 				CE6726C621A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */,
 				CE6726A921A6CD2C0052C275 /* Array+KIS.swift in Sources */,
 				CE6726CC21A6CD430052C275 /* Response.swift in Sources */,
 				CE6726DE21A6CD430052C275 /* RestClient+Error.swift in Sources */,
 				CE6726D221A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */,
 				CE6726C321A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CEB152B621A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */,
 				CE67267321A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */,
 				CE6726C921A6CD430052C275 /* Data+KIS.swift in Sources */,
 				CE6726CF21A6CD430052C275 /* Request.swift in Sources */,
@@ -753,6 +831,7 @@
 				CE67270821A6CD930052C275 /* String+Obfuscation.swift in Sources */,
 				CE67268321A6C0570052C275 /* MultiLogRenderer.swift in Sources */,
 				CE6726EE21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CEB152AE21A7017800C53A41 /* SecurityStatus.swift in Sources */,
 				CE67267621A6C0380052C275 /* MulticastDelegate.swift in Sources */,
 				CE6726E121A6CD430052C275 /* RestClient.swift in Sources */,
 				CE6726C021A6CD430052C275 /* Constants.swift in Sources */,
@@ -763,7 +842,10 @@
 				CE6726AC21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */,
 				CE67268021A6C0570052C275 /* LogRenderer.swift in Sources */,
 				CE6726D521A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CEB152B221A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */,
+				CEB1529921A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */,
 				CE6726A321A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
+				CEB152A421A7007D00C53A41 /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,12 +855,14 @@
 			files = (
 				CE67270F21A6CD930052C275 /* URLSessionPinningDelegate.swift in Sources */,
 				CE67268721A6C0570052C275 /* Log.swift in Sources */,
+				CEB152BB21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */,
 				CE6726C721A6CD430052C275 /* HTTPURLResponse+KIS.swift in Sources */,
 				CE6726AA21A6CD2C0052C275 /* Array+KIS.swift in Sources */,
 				CE6726CD21A6CD430052C275 /* Response.swift in Sources */,
 				CE6726DF21A6CD430052C275 /* RestClient+Error.swift in Sources */,
 				CE6726D321A6CD430052C275 /* RestClient+PrepareRequest.swift in Sources */,
 				CE6726C421A6CD430052C275 /* JSONSerialization+KIS.swift in Sources */,
+				CEB152B721A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */,
 				CE67267421A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */,
 				CE6726CA21A6CD430052C275 /* Data+KIS.swift in Sources */,
 				CE6726D021A6CD430052C275 /* Request.swift in Sources */,
@@ -790,6 +874,7 @@
 				CE67270921A6CD930052C275 /* String+Obfuscation.swift in Sources */,
 				CE67268421A6C0570052C275 /* MultiLogRenderer.swift in Sources */,
 				CE6726EF21A6CD7D0052C275 /* GlobalActivityIndicator.swift in Sources */,
+				CEB152AF21A7017800C53A41 /* SecurityStatus.swift in Sources */,
 				CE67267721A6C0380052C275 /* MulticastDelegate.swift in Sources */,
 				CE6726E221A6CD430052C275 /* RestClient.swift in Sources */,
 				CE6726C121A6CD430052C275 /* Constants.swift in Sources */,
@@ -800,7 +885,10 @@
 				CE6726AD21A6CD2C0052C275 /* DispatchQueue+KIS.swift in Sources */,
 				CE67268121A6C0570052C275 /* LogRenderer.swift in Sources */,
 				CE6726D621A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
+				CEB152B321A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */,
+				CEB1529A21A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */,
 				CE6726A421A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
+				CEB152A521A7007D00C53A41 /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,12 +898,14 @@
 			files = (
 				CE67272421A6CE210052C275 /* JSONSerialization+KIS.swift in Sources */,
 				CE67273221A6CE210052C275 /* FileManager+KIS.swift in Sources */,
+				CEB152BC21A7017800C53A41 /* SecurityStatus+Proxy.swift in Sources */,
 				CE67273421A6CE210052C275 /* Log.swift in Sources */,
 				CE67272C21A6CE210052C275 /* RestClientAuthenticationDelegate.swift in Sources */,
 				CE67272921A6CE210052C275 /* RestClient+PrepareRequest.swift in Sources */,
 				CE67272821A6CE210052C275 /* Request.swift in Sources */,
 				CE67272D21A6CE210052C275 /* RestClient+Error.swift in Sources */,
 				CE67273021A6CE210052C275 /* Optional+KIS.swift in Sources */,
+				CEB152B821A7017800C53A41 /* SecurityStatus+Jailbreak.swift in Sources */,
 				CE67273921A6CE210052C275 /* NSLogRenderer.swift in Sources */,
 				CE67272521A6CE210052C275 /* HTTPURLResponse+KIS.swift in Sources */,
 				CE67272121A6CE210052C275 /* GlobalActivityIndicator.swift in Sources */,
@@ -827,6 +917,7 @@
 				CE67273B21A6CE210052C275 /* SSLCertificate.swift in Sources */,
 				CE67273E21A6CE210052C275 /* MulticastDelegate.swift in Sources */,
 				CE67272B21A6CE210052C275 /* RestClient+Authentication.swift in Sources */,
+				CEB152B021A7017800C53A41 /* SecurityStatus.swift in Sources */,
 				CE67273621A6CE210052C275 /* LogLevel.swift in Sources */,
 				CE67273D21A6CE210052C275 /* StrongMulticastDelegate.swift in Sources */,
 				CE67272A21A6CE210052C275 /* RestClient+ExecuteRequest.swift in Sources */,
@@ -837,7 +928,10 @@
 				CE67273721A6CE210052C275 /* LogRenderer.swift in Sources */,
 				CE67273821A6CE210052C275 /* MultiLogRenderer.swift in Sources */,
 				CE67272F21A6CE210052C275 /* DictionaryDecodable.swift in Sources */,
+				CEB152B421A7017800C53A41 /* SecurityStatus+Debugger.swift in Sources */,
+				CEB1529B21A6FFAC00C53A41 /* LocalizationStringProvider.swift in Sources */,
 				CE67272721A6CE210052C275 /* Response.swift in Sources */,
+				CEB152A621A7007D00C53A41 /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
