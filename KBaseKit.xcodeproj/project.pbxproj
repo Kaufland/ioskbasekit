@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE67262C21A6BEEC0052C275 /* KBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KBaseKit.framework */; };
-		CE67263121A6BEEC0052C275 /* KBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67263021A6BEEC0052C275 /* KBaseKitTests.swift */; };
 		CE67263321A6BEEC0052C275 /* KBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE67267221A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
 		CE67267321A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
@@ -133,15 +131,35 @@
 		CE67273C21A6CE210052C275 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */; };
 		CE67273D21A6CE210052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
 		CE67273E21A6CE210052C275 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267121A6C0380052C275 /* MulticastDelegate.swift */; };
+		CEB1526C21A6E36C00C53A41 /* MulticastDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1526B21A6E36C00C53A41 /* MulticastDelegateTests.swift */; };
+		CEB1528321A6E38000C53A41 /* SafeOptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1526E21A6E38000C53A41 /* SafeOptionalTests.swift */; };
+		CEB1528421A6E38000C53A41 /* MultiLogRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1526F21A6E38000C53A41 /* MultiLogRendererTests.swift */; };
+		CEB1528521A6E38000C53A41 /* LoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527021A6E38000C53A41 /* LoggingTests.swift */; };
+		CEB1528621A6E38000C53A41 /* NSLogRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527121A6E38000C53A41 /* NSLogRendererTests.swift */; };
+		CEB1528721A6E38000C53A41 /* KLogKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527221A6E38000C53A41 /* KLogKitTests.swift */; };
+		CEB1528821A6E38000C53A41 /* LogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527321A6E38000C53A41 /* LogLevelTests.swift */; };
+		CEB1528921A6E38000C53A41 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527521A6E38000C53A41 /* RequestTests.swift */; };
+		CEB1528A21A6E38000C53A41 /* PrepareRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527621A6E38000C53A41 /* PrepareRequestTests.swift */; };
+		CEB1528B21A6E38000C53A41 /* OperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527721A6E38000C53A41 /* OperatorTests.swift */; };
+		CEB1528C21A6E38000C53A41 /* DataKISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527821A6E38000C53A41 /* DataKISTests.swift */; };
+		CEB1528E21A6E38000C53A41 /* RestClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527A21A6E38000C53A41 /* RestClientTests.swift */; };
+		CEB1528F21A6E38000C53A41 /* DictionaryDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527B21A6E38000C53A41 /* DictionaryDecodableTests.swift */; };
+		CEB1529021A6E38000C53A41 /* JSONSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527C21A6E38000C53A41 /* JSONSerializationTests.swift */; };
+		CEB1529121A6E38000C53A41 /* HTTPURLResponseKISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527D21A6E38000C53A41 /* HTTPURLResponseKISTests.swift */; };
+		CEB1529221A6E38000C53A41 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */; };
+		CEB1529321A6E38000C53A41 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1527F21A6E38000C53A41 /* TestTests.swift */; };
+		CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */; };
+		CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */; };
+		CEB84E6721A6E09400CB34FC /* KBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE67262221A6BEEC0052C275 /* KBaseKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE67262D21A6BEEC0052C275 /* PBXContainerItemProxy */ = {
+		CEB84E6821A6E09400CB34FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE67261921A6BEEC0052C275 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE67262121A6BEEC0052C275;
-			remoteInfo = KBaseKit;
+			remoteInfo = "KBaseKit-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -149,9 +167,6 @@
 		CE67262221A6BEEC0052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67262521A6BEEC0052C275 /* KBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBaseKit.h; sourceTree = "<group>"; };
 		CE67262621A6BEEC0052C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE67262B21A6BEEC0052C275 /* KBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE67263021A6BEEC0052C275 /* KBaseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseKitTests.swift; sourceTree = "<group>"; };
-		CE67263221A6BEEC0052C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE67264121A6BF140052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67265D21A6BF550052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrongMulticastDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +200,27 @@
 		CE6726F921A6CD930052C275 /* SSLCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLCertificate.swift; sourceTree = "<group>"; };
 		CE6726FA21A6CD930052C275 /* URLSessionPinningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionPinningDelegate.swift; sourceTree = "<group>"; };
 		CE67271521A6CDD80052C275 /* KBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB1526B21A6E36C00C53A41 /* MulticastDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegateTests.swift; sourceTree = "<group>"; };
+		CEB1526E21A6E38000C53A41 /* SafeOptionalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeOptionalTests.swift; sourceTree = "<group>"; };
+		CEB1526F21A6E38000C53A41 /* MultiLogRendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLogRendererTests.swift; sourceTree = "<group>"; };
+		CEB1527021A6E38000C53A41 /* LoggingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingTests.swift; sourceTree = "<group>"; };
+		CEB1527121A6E38000C53A41 /* NSLogRendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLogRendererTests.swift; sourceTree = "<group>"; };
+		CEB1527221A6E38000C53A41 /* KLogKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLogKitTests.swift; sourceTree = "<group>"; };
+		CEB1527321A6E38000C53A41 /* LogLevelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevelTests.swift; sourceTree = "<group>"; };
+		CEB1527521A6E38000C53A41 /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		CEB1527621A6E38000C53A41 /* PrepareRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareRequestTests.swift; sourceTree = "<group>"; };
+		CEB1527721A6E38000C53A41 /* OperatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorTests.swift; sourceTree = "<group>"; };
+		CEB1527821A6E38000C53A41 /* DataKISTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataKISTests.swift; sourceTree = "<group>"; };
+		CEB1527A21A6E38000C53A41 /* RestClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClientTests.swift; sourceTree = "<group>"; };
+		CEB1527B21A6E38000C53A41 /* DictionaryDecodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryDecodableTests.swift; sourceTree = "<group>"; };
+		CEB1527C21A6E38000C53A41 /* JSONSerializationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializationTests.swift; sourceTree = "<group>"; };
+		CEB1527D21A6E38000C53A41 /* HTTPURLResponseKISTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseKISTests.swift; sourceTree = "<group>"; };
+		CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationTests.swift; sourceTree = "<group>"; };
+		CEB1527F21A6E38000C53A41 /* TestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringObfusctionTests.swift; sourceTree = "<group>"; };
+		CEB84E6221A6E09300CB34FC /* KBaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseKitTests.swift; sourceTree = "<group>"; };
+		CEB84E6621A6E09400CB34FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,14 +228,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE67262821A6BEEC0052C275 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE67262C21A6BEEC0052C275 /* KBaseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +252,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEB84E5F21A6E09300CB34FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB84E6721A6E09400CB34FC /* KBaseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -231,7 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				CE67262421A6BEEC0052C275 /* KBaseKit */,
-				CE67262F21A6BEEC0052C275 /* KBaseKitTests */,
+				CEB84E6321A6E09400CB34FC /* KBaseKitTests */,
 				CE67262321A6BEEC0052C275 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -240,10 +276,10 @@
 			isa = PBXGroup;
 			children = (
 				CE67262221A6BEEC0052C275 /* KBaseKit.framework */,
-				CE67262B21A6BEEC0052C275 /* KBaseKitTests.xctest */,
 				CE67264121A6BF140052C275 /* KBaseKit.framework */,
 				CE67265D21A6BF550052C275 /* KBaseKit.framework */,
 				CE67271521A6CDD80052C275 /* KBaseKit.framework */,
+				CEB84E6221A6E09300CB34FC /* KBaseKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,15 +298,6 @@
 				CE67262621A6BEEC0052C275 /* Info.plist */,
 			);
 			path = KBaseKit;
-			sourceTree = "<group>";
-		};
-		CE67262F21A6BEEC0052C275 /* KBaseKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE67263021A6BEEC0052C275 /* KBaseKitTests.swift */,
-				CE67263221A6BEEC0052C275 /* Info.plist */,
-			);
-			path = KBaseKitTests;
 			sourceTree = "<group>";
 		};
 		CE67266F21A6C0380052C275 /* Mutlicast */ = {
@@ -392,6 +419,65 @@
 			path = "SSL Pinning";
 			sourceTree = "<group>";
 		};
+		CEB1526A21A6E36C00C53A41 /* Mutlicast */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1526B21A6E36C00C53A41 /* MulticastDelegateTests.swift */,
+			);
+			path = Mutlicast;
+			sourceTree = "<group>";
+		};
+		CEB1526D21A6E38000C53A41 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1526E21A6E38000C53A41 /* SafeOptionalTests.swift */,
+				CEB1526F21A6E38000C53A41 /* MultiLogRendererTests.swift */,
+				CEB1527021A6E38000C53A41 /* LoggingTests.swift */,
+				CEB1527121A6E38000C53A41 /* NSLogRendererTests.swift */,
+				CEB1527221A6E38000C53A41 /* KLogKitTests.swift */,
+				CEB1527321A6E38000C53A41 /* LogLevelTests.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		CEB1527421A6E38000C53A41 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1527521A6E38000C53A41 /* RequestTests.swift */,
+				CEB1527621A6E38000C53A41 /* PrepareRequestTests.swift */,
+				CEB1527721A6E38000C53A41 /* OperatorTests.swift */,
+				CEB1527821A6E38000C53A41 /* DataKISTests.swift */,
+				CEB1527A21A6E38000C53A41 /* RestClientTests.swift */,
+				CEB1527B21A6E38000C53A41 /* DictionaryDecodableTests.swift */,
+				CEB1527C21A6E38000C53A41 /* JSONSerializationTests.swift */,
+				CEB1527D21A6E38000C53A41 /* HTTPURLResponseKISTests.swift */,
+				CEB1527E21A6E38000C53A41 /* AuthenticationTests.swift */,
+				CEB1527F21A6E38000C53A41 /* TestTests.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		CEB1528021A6E38000C53A41 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1528221A6E38000C53A41 /* StringObfusctionTests.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CEB84E6321A6E09400CB34FC /* KBaseKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1526D21A6E38000C53A41 /* Logging */,
+				CEB1527421A6E38000C53A41 /* REST */,
+				CEB1528021A6E38000C53A41 /* Security */,
+				CEB1526A21A6E36C00C53A41 /* Mutlicast */,
+				CEB84E6421A6E09400CB34FC /* KBaseKitTests.swift */,
+				CEB84E6621A6E09400CB34FC /* Info.plist */,
+			);
+			path = KBaseKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -448,24 +534,6 @@
 			productReference = CE67262221A6BEEC0052C275 /* KBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE67262A21A6BEEC0052C275 /* KBaseKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE67263921A6BEEC0052C275 /* Build configuration list for PBXNativeTarget "KBaseKitTests" */;
-			buildPhases = (
-				CE67262721A6BEEC0052C275 /* Sources */,
-				CE67262821A6BEEC0052C275 /* Frameworks */,
-				CE67262921A6BEEC0052C275 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE67262E21A6BEEC0052C275 /* PBXTargetDependency */,
-			);
-			name = KBaseKitTests;
-			productName = KBaseKitTests;
-			productReference = CE67262B21A6BEEC0052C275 /* KBaseKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		CE67264021A6BF140052C275 /* KBaseKit-tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE67265221A6BF140052C275 /* Build configuration list for PBXNativeTarget "KBaseKit-tvOS" */;
@@ -520,6 +588,24 @@
 			productReference = CE67271521A6CDD80052C275 /* KBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		CEB84E6121A6E09300CB34FC /* KBaseKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB84E6A21A6E09400CB34FC /* Build configuration list for PBXNativeTarget "KBaseKitTests" */;
+			buildPhases = (
+				CEB84E5E21A6E09300CB34FC /* Sources */,
+				CEB84E5F21A6E09300CB34FC /* Frameworks */,
+				CEB84E6021A6E09300CB34FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB84E6921A6E09400CB34FC /* PBXTargetDependency */,
+			);
+			name = KBaseKitTests;
+			productName = KBaseKitTests;
+			productReference = CEB84E6221A6E09300CB34FC /* KBaseKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -533,9 +619,6 @@
 					CE67262121A6BEEC0052C275 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					CE67262A21A6BEEC0052C275 = {
-						CreatedOnToolsVersion = 10.0;
-					};
 					CE67264021A6BF140052C275 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -543,6 +626,9 @@
 						CreatedOnToolsVersion = 10.0;
 					};
 					CE67271421A6CDD80052C275 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEB84E6121A6E09300CB34FC = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -560,7 +646,7 @@
 			projectRoot = "";
 			targets = (
 				CE67262121A6BEEC0052C275 /* KBaseKit-iOS */,
-				CE67262A21A6BEEC0052C275 /* KBaseKitTests */,
+				CEB84E6121A6E09300CB34FC /* KBaseKitTests */,
 				CE67264021A6BF140052C275 /* KBaseKit-tvOS */,
 				CE67265C21A6BF550052C275 /* KBaseKit-macOS */,
 				CE67271421A6CDD80052C275 /* KBaseKit-watchOS */,
@@ -570,13 +656,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		CE67262021A6BEEC0052C275 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE67262921A6BEEC0052C275 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -598,6 +677,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CE67271321A6CDD80052C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB84E6021A6E09300CB34FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -641,14 +727,6 @@
 				CE67267F21A6C0570052C275 /* LogRenderer.swift in Sources */,
 				CE6726D421A6CD430052C275 /* RestClient+ExecuteRequest.swift in Sources */,
 				CE6726A221A6CD2C0052C275 /* Optional+KIS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE67262721A6BEEC0052C275 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE67263121A6BEEC0052C275 /* KBaseKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,13 +841,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEB84E5E21A6E09300CB34FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB1528921A6E38000C53A41 /* RequestTests.swift in Sources */,
+				CEB1529221A6E38000C53A41 /* AuthenticationTests.swift in Sources */,
+				CEB1529021A6E38000C53A41 /* JSONSerializationTests.swift in Sources */,
+				CEB84E6521A6E09400CB34FC /* KBaseKitTests.swift in Sources */,
+				CEB1528421A6E38000C53A41 /* MultiLogRendererTests.swift in Sources */,
+				CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */,
+				CEB1528E21A6E38000C53A41 /* RestClientTests.swift in Sources */,
+				CEB1529121A6E38000C53A41 /* HTTPURLResponseKISTests.swift in Sources */,
+				CEB1528F21A6E38000C53A41 /* DictionaryDecodableTests.swift in Sources */,
+				CEB1529321A6E38000C53A41 /* TestTests.swift in Sources */,
+				CEB1528721A6E38000C53A41 /* KLogKitTests.swift in Sources */,
+				CEB1528B21A6E38000C53A41 /* OperatorTests.swift in Sources */,
+				CEB1528C21A6E38000C53A41 /* DataKISTests.swift in Sources */,
+				CEB1528821A6E38000C53A41 /* LogLevelTests.swift in Sources */,
+				CEB1528321A6E38000C53A41 /* SafeOptionalTests.swift in Sources */,
+				CEB1528521A6E38000C53A41 /* LoggingTests.swift in Sources */,
+				CEB1528A21A6E38000C53A41 /* PrepareRequestTests.swift in Sources */,
+				CEB1528621A6E38000C53A41 /* NSLogRendererTests.swift in Sources */,
+				CEB1526C21A6E36C00C53A41 /* MulticastDelegateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE67262E21A6BEEC0052C275 /* PBXTargetDependency */ = {
+		CEB84E6921A6E09400CB34FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE67262121A6BEEC0052C275 /* KBaseKit-iOS */;
-			targetProxy = CE67262D21A6BEEC0052C275 /* PBXContainerItemProxy */;
+			targetProxy = CEB84E6821A6E09400CB34FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -950,44 +1054,6 @@
 			};
 			name = Release;
 		};
-		CE67263A21A6BEEC0052C275 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
-				INFOPLIST_FILE = KBaseKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CE67263B21A6BEEC0052C275 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
-				INFOPLIST_FILE = KBaseKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		CE67265321A6BF140052C275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1158,6 +1224,42 @@
 			};
 			name = Release;
 		};
+		CEB84E6B21A6E09400CB34FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				INFOPLIST_FILE = KBaseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB84E6C21A6E09400CB34FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DR5YYJ2CC;
+				INFOPLIST_FILE = KBaseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaufland.KBaseKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1175,15 +1277,6 @@
 			buildConfigurations = (
 				CE67263721A6BEEC0052C275 /* Debug */,
 				CE67263821A6BEEC0052C275 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE67263921A6BEEC0052C275 /* Build configuration list for PBXNativeTarget "KBaseKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE67263A21A6BEEC0052C275 /* Debug */,
-				CE67263B21A6BEEC0052C275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1211,6 +1304,15 @@
 			buildConfigurations = (
 				CE67271B21A6CDD80052C275 /* Debug */,
 				CE67271C21A6CDD80052C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB84E6A21A6E09400CB34FC /* Build configuration list for PBXNativeTarget "KBaseKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB84E6B21A6E09400CB34FC /* Debug */,
+				CEB84E6C21A6E09400CB34FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE67262A21A6BEEC0052C275"
+               BlueprintIdentifier = "CEB84E6121A6E09300CB34FC"
                BuildableName = "KBaseKitTests.xctest"
                BlueprintName = "KBaseKitTests"
                ReferencedContainer = "container:KBaseKit.xcodeproj">
