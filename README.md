@@ -13,4 +13,4 @@ is a collection of iOS utilities and functions. It also includes **a full featur
  - Utilities for DispatchQueue & FileManager
 
 ## License
-KRestKit is licensed under the terms of the MIT License. Please see the [LICENSE](LICENSE) file for full details.
+KLBaseKit is licensed under the terms of the MIT License. Please see the [LICENSE](LICENSE) file for full details.
