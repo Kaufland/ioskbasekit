@@ -6,7 +6,7 @@
 //  Copyright © 2018 Markus Troßbach. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <WatchKit/WatchKit.h>
 
 //! Project version number for KBaseKit.
 FOUNDATION_EXPORT double KBaseKitVersionNumber;

@@ -22,9 +22,10 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/mtrossba'
 
 
-  s.ios.deployment_target = '10.0'
-  s.tvos.deployment_target = '10.0'
-  s.osx.deployment_target = '10.12'
+  s.ios.deployment_target = '10.3'
+  s.tvos.deployment_target = '10.2'
+  s.osx.deployment_target = '10.11'
+  s.watchos.deployment_target = '4.3'
   s.requires_arc = true
   s.source_files = "KBaseKit*/**/*.{h,m,mm,c,ccp,hpp,swift}"
 
