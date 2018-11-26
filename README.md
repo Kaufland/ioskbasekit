@@ -1,4 +1,4 @@
-[![KIS](https://img.shields.io/badge/KIS-awesome-red.svg)](http://www.spannende-it.de)
+[![Build Status](https://travis-ci.com/Kaufland/iosklbasekit.svg?branch=master)](https://travis-ci.com/Kaufland/iosklbasekit) [![KIS](https://img.shields.io/badge/KIS-awesome-red.svg)](http://www.spannende-it.de)
 
 # KLBaseKit
 
