@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2C7D3D21AC2AEF0052045D /* KNetworkErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C7D3C21AC2AEF0052045D /* KNetworkErrorTests.swift */; };
+		CE2C7D3F21AC2D030052045D /* DispatchQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C7D3E21AC2D030052045D /* DispatchQueueTests.swift */; };
 		CE67263321A6BEEC0052C275 /* KLBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE67262521A6BEEC0052C275 /* KLBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE67267221A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
 		CE67267321A6C0380052C275 /* StrongMulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67267021A6C0380052C275 /* StrongMulticastDelegate.swift */; };
@@ -199,6 +201,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2C7D3C21AC2AEF0052045D /* KNetworkErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNetworkErrorTests.swift; sourceTree = "<group>"; };
+		CE2C7D3E21AC2D030052045D /* DispatchQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueTests.swift; sourceTree = "<group>"; };
 		CE67262221A6BEEC0052C275 /* KLBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67262521A6BEEC0052C275 /* KLBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaseKit.h; sourceTree = "<group>"; };
 		CE67262621A6BEEC0052C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -314,6 +318,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2C7D3B21AC2ADB0052045D /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C7D3C21AC2AEF0052045D /* KNetworkErrorTests.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		CE67261821A6BEEC0052C275 = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +578,7 @@
 				CEB152C921A7E40100C53A41 /* ArrayTests.swift */,
 				CEB152CB21A7E4BB00C53A41 /* OptionalsTests.swift */,
 				CEB152CD21A7E56300C53A41 /* FileManagerTests.swift */,
+				CE2C7D3E21AC2D030052045D /* DispatchQueueTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -573,6 +586,7 @@
 		CEB84E6321A6E09400CB34FC /* KLBaseKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				CE2C7D3B21AC2ADB0052045D /* Error */,
 				CEB152C821A7E3F400C53A41 /* Extensions */,
 				CEB152BF21A7E1B300C53A41 /* ExceptionsTest */,
 				CEB1526D21A6E38000C53A41 /* Logging */,
@@ -992,11 +1006,13 @@
 				CEB1529521A6E38000C53A41 /* StringObfusctionTests.swift in Sources */,
 				CEB1528E21A6E38000C53A41 /* RestClientTests.swift in Sources */,
 				CEB1529121A6E38000C53A41 /* HTTPURLResponseKISTests.swift in Sources */,
+				CE2C7D3F21AC2D030052045D /* DispatchQueueTests.swift in Sources */,
 				CEB1528F21A6E38000C53A41 /* DictionaryDecodableTests.swift in Sources */,
 				CEB152CC21A7E4BC00C53A41 /* OptionalsTests.swift in Sources */,
 				CEB1529321A6E38000C53A41 /* TestTests.swift in Sources */,
 				CEB152D021A7E60200C53A41 /* StrongMulticastDelegateTests.swift in Sources */,
 				CEB1528721A6E38000C53A41 /* KLogKitTests.swift in Sources */,
+				CE2C7D3D21AC2AEF0052045D /* KNetworkErrorTests.swift in Sources */,
 				CEB1528B21A6E38000C53A41 /* OperatorTests.swift in Sources */,
 				CEB1528C21A6E38000C53A41 /* DataKISTests.swift in Sources */,
 				CEB1528821A6E38000C53A41 /* LogLevelTests.swift in Sources */,
