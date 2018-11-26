@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-               BuildableName = "KBaseKit.framework"
+               BuildableName = "KLBaseKit.framework"
                BlueprintName = "KLBaseKit-iOS"
                ReferencedContainer = "container:KLBaseKit.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-            BuildableName = "KBaseKit.framework"
+            BuildableName = "KLBaseKit.framework"
             BlueprintName = "KLBaseKit-iOS"
             ReferencedContainer = "container:KLBaseKit.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-            BuildableName = "KBaseKit.framework"
+            BuildableName = "KLBaseKit.framework"
             BlueprintName = "KLBaseKit-iOS"
             ReferencedContainer = "container:KLBaseKit.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE67262121A6BEEC0052C275"
-            BuildableName = "KBaseKit.framework"
+            BuildableName = "KLBaseKit.framework"
             BlueprintName = "KLBaseKit-iOS"
             ReferencedContainer = "container:KLBaseKit.xcodeproj">
          </BuildableReference>
