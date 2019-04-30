@@ -63,7 +63,7 @@ public extension Logging {
         Log.setUser(identifier: identifier, email: email, name: name)
     }
 
-    public static func recordNonFatal(domain: String, code: Int, customAttributes: [String: AnyObject]? = nil) {
+    static func recordNonFatal(domain: String, code: Int, customAttributes: [String: AnyObject]? = nil) {
         Log.recordNonFatal(domain: domain, code: code, customAttributes: customAttributes)
     }
 

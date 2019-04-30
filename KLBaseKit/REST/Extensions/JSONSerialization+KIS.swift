@@ -9,7 +9,7 @@
 import Foundation
 
 public extension JSONSerialization {
-    public static func jsonObjects<T: DictionaryDecodable>(type: T.Type, data: Data?) throws -> [T]? {
+    static func jsonObjects<T: DictionaryDecodable>(type: T.Type, data: Data?) throws -> [T]? {
         guard let data = data else {
             return nil
         }
@@ -24,7 +24,7 @@ public extension JSONSerialization {
         throw KNetworkError.parsing(nil)
     }
 
-    public static func jsonObject<T: DictionaryDecodable>(type: T.Type, data: Data?) throws -> T? {
+    static func jsonObject<T: DictionaryDecodable>(type: T.Type, data: Data?) throws -> T? {
         guard let data = data else {
             return nil
         }

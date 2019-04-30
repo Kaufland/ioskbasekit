@@ -13,7 +13,7 @@ public extension SecurityStatus {
     #if os(watchOS)
 
     #else
-    public struct Proxy {
+    struct Proxy {
 
         public static var settings: [String: AnyObject]? {
             guard let proxySettingsUnmanaged = CFNetworkCopySystemProxySettings() else {

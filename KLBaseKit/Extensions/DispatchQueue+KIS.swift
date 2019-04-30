@@ -19,7 +19,7 @@ public extension DispatchQueue {
      - parameter token: A unique reverse DNS style name such as com.kaufland.<name> or a GUID
      - parameter block: Block to execute once
      */
-    public class func once(token: String, block: () -> Void) {
+    class func once(token: String, block: () -> Void) {
         objc_sync_enter(self); defer { objc_sync_exit(self) }
 
         if _onceTracker.contains(token) {
@@ -31,7 +31,7 @@ public extension DispatchQueue {
 
     }
 
-    public class func assureDispatchOnMain(block: @escaping () -> Void) {
+    class func assureDispatchOnMain(block: @escaping () -> Void) {
         if Thread.isMainThread {
             block()
         } else {

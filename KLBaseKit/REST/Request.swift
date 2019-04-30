@@ -101,7 +101,7 @@ public extension Request {
 }
 
 public extension Request where ResponseObject == NSDictionary {
-    public func decodeResponse(data: Data?, statusCode: Int) throws -> NSDictionary {
+    func decodeResponse(data: Data?, statusCode: Int) throws -> NSDictionary {
         do {
             if let data = data, let dict = try JSONSerialization.jsonObject(with: data, options: [.allowFragments]) as? NSDictionary {
                 return dict
@@ -114,7 +114,7 @@ public extension Request where ResponseObject == NSDictionary {
 }
 
 public extension Request where ResponseObject == NSArray {
-    public func decodeResponse(data: Data?, statusCode: Int) throws -> NSArray {
+    func decodeResponse(data: Data?, statusCode: Int) throws -> NSArray {
         do {
             if let data = data, let dict = try JSONSerialization.jsonObject(with: data, options: [.allowFragments]) as? NSArray {
                 return dict
@@ -127,7 +127,7 @@ public extension Request where ResponseObject == NSArray {
 }
 
 public extension Request where ResponseObject == String {
-    public func decodeResponse(data: Data?, statusCode: Int) throws -> String {
+    func decodeResponse(data: Data?, statusCode: Int) throws -> String {
         if let data = data, let string = data.utf8String() {
             return string
         }
@@ -136,7 +136,7 @@ public extension Request where ResponseObject == String {
 }
 
 public extension Request where ErrorResponseObject == NSDictionary {
-    public func decodeErrorResponse(data: Data?, statusCode: Int) throws -> NSDictionary {
+    func decodeErrorResponse(data: Data?, statusCode: Int) throws -> NSDictionary {
         do {
             if let data = data, let dict = try JSONSerialization.jsonObject(with: data, options: [.allowFragments]) as? NSDictionary {
                 return dict
@@ -149,7 +149,7 @@ public extension Request where ErrorResponseObject == NSDictionary {
 }
 
 public extension Request where ErrorResponseObject == NSArray {
-    public func decodeErrorResponse(data: Data?, statusCode: Int) throws -> NSArray {
+    func decodeErrorResponse(data: Data?, statusCode: Int) throws -> NSArray {
         do {
             if let data = data, let dict = try JSONSerialization.jsonObject(with: data, options: [.allowFragments]) as? NSArray {
                 return dict
@@ -162,7 +162,7 @@ public extension Request where ErrorResponseObject == NSArray {
 }
 
 public extension Request where ErrorResponseObject == String {
-    public func decodeErrorResponse(data: Data?, statusCode: Int) throws -> String {
+    func decodeErrorResponse(data: Data?, statusCode: Int) throws -> String {
         if let data = data, let string = data.utf8String() {
             return string
         }

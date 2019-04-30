@@ -164,7 +164,7 @@ class KNetworkErrorTests: XCTestCase {
     func testElse() {
         let error = NSError(domain: NSPOSIXErrorDomain, code: Int(EBADMSG), userInfo: nil)
         switch(KNetworkError.convert(error)) {
-        case .generic(let _):
+        case .generic( _):
             XCTAssertTrue(true)
         default:
             XCTAssertTrue(false)

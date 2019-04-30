@@ -9,11 +9,11 @@
 import Foundation
 
 public extension FileManager {
-    public class var cachesPath: String {
+    class var cachesPath: String {
         return NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first ?? ""
     }
 
-    public class var documentsPath: String {
+    class var documentsPath: String {
         return NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first ?? ""
     }
 }

@@ -90,7 +90,7 @@ extension RestClient {
                         return completion(HTTPResult<T>.exception(.parsing(error), responseStruct))
                     }
                 case .determinableWithResponse:
-                    let decodedResponse = try? httpRequest.decodeResponse(data: data, statusCode: response.statusCode)
+                    let decodedResponse = ((try? httpRequest.decodeResponse(data: data, statusCode: response.statusCode)) as T.ResponseObject??)
                     let decodedErrorResponse = try? httpRequest.decodeErrorResponse(data: data, statusCode: response.statusCode)
 
                     responseStruct.parsingDuration = -startTime.timeIntervalSinceNow

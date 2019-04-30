@@ -51,12 +51,12 @@ class TestTests: XCTestCase, RestClientAuthenticationDelegate {
         client.performRequest(request) { (result) in
             switch result {
             case .error(let errorObject, _):
-                print("\(errorObject)")
+                print("\(String(describing: errorObject))")
             case .exception(let error, _):
                 print("\(error)")
             case .success(let result, _):
                 //print("\(result)")
-                print("success! \(result?.count)")
+                print("success! \(String(describing: result?.count))")
             }
 
             expect.fulfill()

@@ -9,7 +9,7 @@
 import Foundation
 
 public extension SecurityStatus {
-    public struct Debugger {
+    struct Debugger {
         public static var connected: Bool {
             return ttyWayConnected || defaultWayConnected
         }

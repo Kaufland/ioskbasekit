@@ -9,7 +9,7 @@
 import Foundation
 
 public extension SecurityStatus {
-    public struct Jailbreak {
+    struct Jailbreak {
         public static var isJailbrokenSimple: Bool {
 
             if FileManager.default.fileExists(atPath: String().forwardSlash.A.p.p.l.i.c.a.t.i.o.n.s.forwardSlash.C.y.d.i.a.dot.a.p.p) {

@@ -32,7 +32,7 @@ public extension Optional where Wrapped: IntType {
 
 public extension Optional where Wrapped == String {
 
-    public var isNilOrEmpty: Bool {
+    var isNilOrEmpty: Bool {
         return self?.isEmpty ?? true
     }
 
