@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KLBaseKit'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = '...'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://www.kaufland.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Markus Troßbach' => 'markus.trossbach@kaufland.com' }
+  s.author           = { 'Markus Troßbach' => 'markus.trossbach@mail.schwarz' }
   s.source           = { :git => 'https://github.com/Kaufland/iosklbasekit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mtrossba'
 
