@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/SchwarzIT/iosklbasekit.svg?branch=master)](https://travis-ci.com/SchwarzIT/iosklbasekit) 
-[![codecov](https://codecov.io/gh/Kaufland/iosklbasekit/branch/master/graph/badge.svg)](https://codecov.io/gh/Kaufland/iosklbasekit)
+[![codecov](https://codecov.io/gh/SchwarzIT/iosklbasekit/branch/master/graph/badge.svg)](https://codecov.io/gh/SchwarzIT/iosklbasekit)
 [![KIS](https://img.shields.io/badge/KIS-awesome-red.svg)](http://www.spannende-it.de)
 
 # KLBaseKit
